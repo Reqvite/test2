@@ -29,6 +29,15 @@ const ProductDetails: FC<{
         setShowCart(true);
     };
 
+    const cutProducts = products.slice(0, 20).map((product: any) => {
+        return {
+            ...product,
+            name: name.slice(0, 27) + '...'
+        }
+    })
+
+    console.log(cutProducts)
+
     return (
         <div>
             <div className="product-detail-container">
@@ -107,7 +116,7 @@ const ProductDetails: FC<{
                 <h2>You may also like</h2>
                 <div className="marquee">
                     <div className="maylike-products-container track">
-                        {products.map((item: any) => (
+                        {cutProducts.map((item: any) => (
                             <Product key={item.id} {...item} />
                         ))}
                     </div>
