@@ -83,9 +83,12 @@ export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
   };
 
   const toggleCartItemQuanitity = (id: string, value: string): void => {
+    console.log(id);
+    console.log(cartItems);
     foundProduct = cartItems.find((item) => item.id === id)!;
     idx = cartItems.findIndex((product) => product.id === id);
 
+    console.log(foundProduct);
     if (value === "inc") {
       const updatedProduct = {
         ...foundProduct,

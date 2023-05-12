@@ -124,7 +124,7 @@ const Cart: FC = () => {
                             <span
                               className="minus"
                               onClick={() =>
-                                toggleCartItemQuanitity(item._id, "dec")
+                                toggleCartItemQuanitity(item.id, "dec")
                               }
                             >
                               <AiOutlineMinus />
@@ -133,7 +133,7 @@ const Cart: FC = () => {
                             <span
                               className="plus"
                               onClick={() =>
-                                toggleCartItemQuanitity(item._id, "inc")
+                                toggleCartItemQuanitity(item.id, "inc")
                               }
                             >
                               <AiOutlinePlus />
