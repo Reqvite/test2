@@ -14,7 +14,6 @@ const Product: FC<ProductI> = ({ image, name, slug, price }) => {
             className="product-image"
             width="250"
             height="250"
-            unoptimized={true}
           />
           <p className="product-name">{name}</p>
           <p className="product-price">${price}</p>

@@ -111,7 +111,6 @@ const Cart: FC = () => {
                       className="cart-product-image"
                       width="50"
                       height="50"
-                      unoptimized={true}
                     />
                     <div className="item-desc">
                       <div className="flex top">
