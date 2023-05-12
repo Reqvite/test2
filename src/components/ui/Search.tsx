@@ -50,6 +50,7 @@ const Search = () => {
     const handleBackdropClick = (event: MouseEvent) => {
         if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
             setData([]);
+            setFilter('')
         }
     };
 
