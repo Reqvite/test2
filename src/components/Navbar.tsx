@@ -3,6 +3,7 @@ import { FC } from "react";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Cart from "./Cart";
 import { useStateContext } from "@/context/StateContext";
+import Search from "./ui/Search";
 
 const Navbar: FC = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
@@ -11,6 +12,7 @@ const Navbar: FC = () => {
       <p className="logo">
         <Link href="/">Store</Link>
       </p>
+      <Search />
       <button
         type="button"
         className="cart-icon"
