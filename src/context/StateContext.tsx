@@ -5,26 +5,29 @@ import { useLocalStorage } from "@/hooks/useLocalStorage";
 
 export const Context = createContext<ContextI>({
   showCart: false,
-  setShowCart: () => { },
+  setShowCart: () => {},
   cartItems: [],
-  setCartItems: () => { },
+  setCartItems: () => {},
   totalPrice: 0,
-  setTotalPrice: () => { },
+  setTotalPrice: () => {},
   totalQuantities: 0,
-  setTotalQuantities: () => { },
+  setTotalQuantities: () => {},
   qty: 0,
-  incQty: () => { },
-  decQty: () => { },
-  onAdd: () => { },
-  toggleCartItemQuanitity: () => { },
-  onRemove: () => { },
-  filterOptions: { product: '', filter: '' },
-  setFilterOptions: () => { },
+  incQty: () => {},
+  decQty: () => {},
+  onAdd: () => {},
+  toggleCartItemQuanitity: () => {},
+  onRemove: () => {},
+  filterOptions: { product: "", filter: "" },
+  setFilterOptions: () => {},
 });
 
 export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
   const [showCart, setShowCart] = useState<boolean>(false);
-  const [filterOptions, setFilterOptions] = useState<{ product: string, filter: string }>({ product: '', filter: '' });
+  const [filterOptions, setFilterOptions] = useState<{
+    product: string;
+    filter: string;
+  }>({ product: "", filter: "" });
   const [cartItems, setCartItems] = useLocalStorage<ProductWithQuantityI[]>(
     "cartItems",
     []
@@ -39,10 +42,8 @@ export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
   let foundProduct: ProductWithQuantityI;
   let idx: number;
 
-  const onAdd = (product: ProductWithQuantityI, quantity: number): void => {
-    const isInCart = cartItems.find(
-      (item: ProductWithQuantityI) => item._id === product._id
-    );
+  const onAdd = (product: any, quantity: number): void => {
+    const isInCart = cartItems.find((item: any) => item.id === product.id);
 
     setTotalPrice((prevPrice: any) => prevPrice + product.price * quantity);
     setTotalQuantities((prevQty: any) => prevQty + quantity);
@@ -50,7 +51,7 @@ export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
     if (isInCart) {
       const updatedCartItems = cartItems.map(
         (cartProduct: ProductWithQuantityI) => {
-          if (cartProduct._id === product._id)
+          if (cartProduct.id === product.id)
             return {
               ...cartProduct,
               quantity: cartProduct.quantity + quantity,
@@ -68,8 +69,8 @@ export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
   };
 
   const onRemove = (product: ProductWithQuantityI): void => {
-    foundProduct = cartItems.find((item) => item._id === product._id)!;
-    const newCartItems = cartItems.filter((item) => item._id !== product._id);
+    foundProduct = cartItems.find((item) => item.id === product.id)!;
+    const newCartItems = cartItems.filter((item) => item.id !== product.id);
 
     setTotalPrice(
       (prevTotalPrice: any) =>
@@ -82,8 +83,8 @@ export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
   };
 
   const toggleCartItemQuanitity = (id: string, value: string): void => {
-    foundProduct = cartItems.find((item) => item._id === id)!;
-    idx = cartItems.findIndex((product) => product._id === id);
+    foundProduct = cartItems.find((item) => item.id === id)!;
+    idx = cartItems.findIndex((product) => product.id === id);
 
     if (value === "inc") {
       const updatedProduct = {
@@ -148,7 +149,7 @@ export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
         toggleCartItemQuanitity,
         onRemove,
         filterOptions,
-        setFilterOptions
+        setFilterOptions,
       }}
     >
       {children}
