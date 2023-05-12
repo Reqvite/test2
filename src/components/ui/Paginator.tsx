@@ -48,7 +48,7 @@ function PaginatedItems({ items, itemsPerPage }: any) {
                 breakLabel={'...'}
                 containerClassName={'pagination'}
                 disabledClassName={'disabled-page'}
-                marginPagesDisplayed={2}
+                marginPagesDisplayed={1}
                 nextClassName={"item pagination-next"}
                 nextLabel={<div><AiOutlineRight color='white' size={20} /></div>}
                 onPageChange={handlePageClick}

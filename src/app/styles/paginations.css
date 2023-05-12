@@ -9,9 +9,9 @@
   padding: 10px;
   display: flex;
   font-size: 14px;
-  height: 40px;
+  height: 35px;
   justify-content: center;
-  width: 40px;
+  width: 35px;
 }
 
 .item:hover,
@@ -19,7 +19,7 @@
   color: #f02d34;
 }
 
-.disabled-page {
+.item .disabled-page {
   display: none;
   color: #808e9b;
   border: solid 1px #808e9b;
@@ -59,7 +59,7 @@
   justify-content: center;
   list-style-type: none;
   position: relative;
-  width: 450px;
+  width: 350px;
 }
 
 .pagination-page {
