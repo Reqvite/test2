@@ -32,7 +32,7 @@ const Home: FC<{ products: any; banners: BannerI[] }> = ({
                 <h2>Best Selling Products</h2>
                 <p>Speakers of many variations</p>
             </div>
-            <PaginatedItems items={handleFilter(filterOptions)} itemsPerPage={20} />
+            <PaginatedItems items={handleFilter(filterOptions)} itemsPerPage={18} />
             <FooterBanner footerBanner={banners && banners[0]} />
         </>
     );
