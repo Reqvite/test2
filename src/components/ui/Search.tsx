@@ -68,9 +68,9 @@ const Search = () => {
                     <BsSearch size={20} />
                 )}
             </div>
-            {data.length !== 0 && filter && (
+            {filter && (
                 <div ref={dropdownRef} className="search-box__drop-down">
-                    {data.map((product: any) => (
+                    {data.length !== 0 ? data.map((product: any) => (
                         <div
                             className="search-box__item"
                             key={product.id}
@@ -92,7 +92,7 @@ const Search = () => {
                                 </div>
                             </Link>
                         </div>
-                    ))}
+                    )) : <div>Sorry, no products were found.</div>}
                 </div>
             )}
         </div>

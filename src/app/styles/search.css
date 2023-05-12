@@ -41,7 +41,7 @@
   position: absolute;
   top: 51px;
   z-index: 10;
-  border: 2px solid #324d67;
+  border: 2px solid #dcdcdc;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.9);
 }
