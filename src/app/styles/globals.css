@@ -376,7 +376,7 @@ span.text-red {
 }
 .product .cart-product-image {
   object-fit: contain;
-  width: 180px;
+  width: 150px;
   height: 150px;
   border-radius: 15px;
   /* background-color: #ebebeb; */
@@ -391,7 +391,8 @@ span.text-red {
   margin-top: 60px;
 }
 .flex h5 {
-  font-size: 24px;
+  width: 280px;
+  font-size: 18px;
 }
 .flex h4 {
   font-size: 20px;
