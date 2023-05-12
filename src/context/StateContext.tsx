@@ -80,6 +80,13 @@ export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
       (prevTotalQuantities: any) => prevTotalQuantities - foundProduct.quantity
     );
     setCartItems(newCartItems);
+
+    if (newCartItems.length === 0) {
+      setTotalQuantities(0);
+      setTotalPrice(0);
+      localStorage.removeItem("totalQuantities");
+      localStorage.removeItem("totalPrice");
+    }
   };
 
   const toggleCartItemQuanitity = (id: string, value: string): void => {
