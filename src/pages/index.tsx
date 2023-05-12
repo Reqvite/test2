@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useState } from "react";
 import { FooterBanner, HeroBanner, Filter } from "../components";
 import { BannerI } from "@/types";
 import { products } from "@/data/data";
@@ -12,7 +12,6 @@ const Home: FC<{ products: any; banners: BannerI[] }> = ({
     const {
         filterOptions
     } = useStateContext();
-
 
     const handleFilter = (filterOptions: { product: string, filter: string }) => {
         if (filterOptions.filter) {
