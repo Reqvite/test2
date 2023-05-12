@@ -7,7 +7,7 @@ const Layout: FC<{ children: ReactNode }> = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <title>Headphones store</title>
+        <title>Store</title>
       </Head>
       <header>
         <Navbar />

@@ -1,13 +1,10 @@
 import { FC, } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { BannerI } from "@/types";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
-import { products } from "@/data/data";
-import img from '../../public/assets/png-transparent-iphone-14-pro.png'
 
-const HeroBanner: FC<{ products }> = ({
+const HeroBanner: FC = ({
   // heroBanner: {
   //   largeText1,
   //   smallText,

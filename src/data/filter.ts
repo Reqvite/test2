@@ -8,7 +8,7 @@ export const buttons = [
     filter: "playstation",
   },
   {
-    title: "Something",
-    filter: "something",
+    title: "Dyson",
+    filter: "dyson",
   },
 ];

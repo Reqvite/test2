@@ -14,8 +14,8 @@ import { products } from "@/data/data";
 
 const ProductDetails: FC<{
     product: ProductWithQuantityI;
-    // products: ProductI[];
-}> = ({ product, products }) => {
+}> = ({ product, products }: any) => {
+
 
     const { image, name, details, price } = product;
 
@@ -103,31 +103,39 @@ const ProductDetails: FC<{
                     </div>
                 </div>
             </div>
-
             <div className="maylike-products-wrapper">
                 <h2>You may also like</h2>
                 <div className="marquee">
-                    {/* <div className="maylike-products-container track">
-                        {products.map((item: ProductI) => (
-                            <Product key={item._id} {...item} />
+                    <div className="maylike-products-container track">
+                        {products.map((item: any) => (
+                            <Product key={item.id} {...item} />
                         ))}
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </div>
     );
 };
 
+interface FoundProduct {
+    key: keyof typeof products;
+    product: {
+        id: string;
+        name: string;
+        price: number;
+        details: string;
+        image: string[];
+        filter: string;
+        slug: string;
+    };
+}
+
 export const getStaticPaths = async () => {
     const data = products;
-    const paths = data.apple.map(({ slug }) => ({
-        params: { slug },
-    }));
-
-    return {
-        paths,
-        fallback: false,
-    };
+    const paths = Object.values(data).flatMap((products) => {
+        return products.map((product) => ({ params: { slug: product.slug } }));
+    });
+    return { paths, fallback: false };
 };
 
 export const getStaticProps: GetServerSideProps = async (context: any) => {
@@ -136,10 +144,14 @@ export const getStaticProps: GetServerSideProps = async (context: any) => {
             notFound: true,
         };
     }
+    const keys: any = Object.keys(products);
+    const foundProduct: FoundProduct = keys.reduce((acc: any, key: keyof typeof products) => {
+        if (acc) return acc;
+        const found: any = products[key].find((product: any) => product.slug === context.params.slug);
+        return found ? { product: found, key } : acc;
+    }, null);
 
-    const data = products.apple.filter((product) => product.slug === context.params.slug);
-
-    if (!data) {
+    if (!foundProduct) {
         return {
             notFound: true,
         };
@@ -147,9 +159,9 @@ export const getStaticProps: GetServerSideProps = async (context: any) => {
 
     return {
         props: {
-            product: data[0],
+            product: foundProduct.product,
+            products: products[foundProduct.key],
         },
     };
-};
-
+}
 export default ProductDetails;

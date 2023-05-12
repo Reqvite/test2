@@ -2976,8 +2976,260 @@ export const products = {
       filter: "iphone",
       slug: "apple-iphone-13-mini-starlight256-gb",
     },
+    {
+      id: "203",
+      name: "Apple MacBook Air M1 Chip 13/256 GB Gold",
+      price: 999,
+      details:
+        "Apple's thinnest and lightest laptop, MacBook Air is now taken to a whole new level with the powerful Apple M1 chip.It gets the job done fast with the amazing speed of an 8-core processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683893653/3876b33cb0a8710c7e33d942a8abedf1_yduikr.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683893653/d344d177e2741c2f50fce09b7a518c7a_jstj2n.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683893653/abee47a2dfb1d5b95ab3da2b9bae3991_t2auad.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683893653/47a0907e3bc14bc5092b230df2c8e160_ky2b0o.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894023/e997ed8a850b92520dd1bd750bdfc001_gtpmkd.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683893653/b651c2b882837d8ee6926373bab8d875_ir3a3u.png",
+      ],
+      filter: "macbook",
+      slug: "apple-macbook-air-m1-chip-13-gold256-gb",
+    },
+    {
+      id: "204",
+      name: "AApple MacBook Air M1 Chip 13/256 GB Silver",
+      price: 999,
+      details:
+        "Apple's thinnest and lightest laptop, MacBook Air is now taken to a whole new level with the powerful Apple M1 chip.It gets the job done fast with the amazing speed of an 8-core processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894071/c48c6ff2b1a3d5557c91c4192b92cbec_lpdxja.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894071/a012cac714f882b7f15981d716724363_cdzcu6.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894071/6715cf39c98f8ada9ca4e3884f86265e_wv5sne.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894070/cfc3453196efc776191d324179ed0215_axrv5e.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894070/bb79cce8dcfebc6b5944fd0de18f3b0b_s6mrfl.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894071/14213305af1ca2cc5e12c1c15a70c7d7_muzfu9.png",
+      ],
+      filter: "macbook",
+      slug: "apple-macbook-air-m1-chip-13-silver256-gb",
+    },
+    {
+      id: "205",
+      name: "Apple MacBook Air M1 Chip 13/256 GB Space Gray",
+      price: 999,
+      details:
+        "Apple's thinnest and lightest laptop, MacBook Air is now taken to a whole new level with the powerful Apple M1 chip.It gets the job done fast with the amazing speed of an 8-core processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894260/c1026e47af36b4c550af108577f48c6b_l83hve.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894260/8e272bcb6769cd41a696e5be980319be_no7kxn.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894260/3adfcd6fb0fd9d3706ca427449ea9044_tclild.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894260/71a7e1b6c6bd00f943c126ca5785d51a_lyqiw9.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894260/0ede903fbc8dd2d78968916918c9ed9b_af1in6.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894349/27cc956c2484f3e52eb84fb93a9e6240_1_s40fzm.png",
+      ],
+      filter: "macbook",
+      slug: "apple-macbook-air-m1-13-spacegray256-gb",
+    },
+    {
+      id: "206",
+      name: "Apple MacBook Pro 14 Chip M2 Pro 19GPU/16RAM/1TB Space Gray",
+      price: 999,
+      details:
+        "Apple's thinnest and lightest laptop, MacBook Air is now taken to a whole new level with the powerful Apple M1 chip.It gets the job done fast with the amazing speed of an 8-core processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894947/47da1c239d9a81f5ad6e35778d992d72_xt8qxk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894947/1676220514-macbook-pro-14-in-space-gray-pdp-image-position-7-uaua_tq0tn2.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683894947/7c79c46d3777e88b07a8f2ec63612b08_g8jg41.png",
+      ],
+      filter: "macbook",
+      slug: "apple-macbook-air-m2-14-spacegray1-tb",
+    },
+    {
+      id: "207",
+      name: "Apple MacBook Pro 14 Chip M2 Pro 19GPU/16RAM/1TB Silver",
+      price: 999,
+      details:
+        "Apple's thinnest and lightest laptop, MacBook Air is now taken to a whole new level with the powerful Apple M1 chip.It gets the job done fast with the amazing speed of an 8-core processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683895107/c530649bbe28928411d55e374a143f92_ckbika.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683895107/1676220214-macbook-pro-14-in-silver-pdp-image-position-7-uaua_qafkcm.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683895107/7c5da09db85ea56f3e7bf6cb0142c2d4_yfpkpm.png",
+      ],
+      filter: "macbook",
+      slug: "apple-macbook-air-m2-14-silver1-tb",
+    },
+    {
+      id: "208",
+      name: "Apple iMac M1 24 4.5K 256GB 8GPU Blue",
+      price: 999,
+      details:
+        "Powered by the Apple M1 chip, iMac is incredibly thin and amazingly powerful. It stands out against any background and will fit perfectly into your life.The 24-inch iMac comes in multiple colors so you can choose the one that suits your style.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683898947/b46629eff8d34f137bfd76c04cbd4948_ptgo5v.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683898946/658cc40bb9242475b10c4a764f2afe0c_n8wxbb.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683898947/8025d125e93d2a70ba749c3ec5677234_ebpya2.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683898947/9968065c18a07e339d1c26454d44d6ca_ocyvcm.png",
+      ],
+      filter: "imac",
+      slug: "apple-imac-m1-24-blue256-gb",
+    },
+    {
+      id: "209",
+      name: "Apple iMac M1 24 4.5K 256GB 8GPU Green ",
+      price: 999,
+      details:
+        "Powered by the Apple M1 chip, iMac is incredibly thin and amazingly powerful. It stands out against any background and will fit perfectly into your life.The 24-inch iMac comes in multiple colors so you can choose the one that suits your style.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899028/fcbaf01533f5e0c5c8eccac247143cd7_ewidsd.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899028/2d02958cf28b79f6eeb85be5d830dcf4_si5hgn.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899029/dca4f56e7ffe7692a8b9ae58ec228177_jq5bji.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899029/fd6ac80030a7275f3a61ba01725b454f_mvnluz.png",
+      ],
+      filter: "imac",
+      slug: "apple-imac-m1-24-green256-gb",
+    },
+    {
+      id: "210",
+      name: "Apple iMac M1 24 4.5K 256GB 8GPU Pink  ",
+      price: 999,
+      details:
+        "Powered by the Apple M1 chip, iMac is incredibly thin and amazingly powerful. It stands out against any background and will fit perfectly into your life.The 24-inch iMac comes in multiple colors so you can choose the one that suits your style.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899106/2df61cc8c41950e3e5f72a4366241e4b_exthue.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899107/4fd944ee9e41f9bbd0127077095867d1_z5yh97.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899107/b61435c7b7c4eceda159ad8e5b1e9bc8_dysuxu.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899106/2e7ef0185309979765aa5884adfdbf27_f4oii5.png",
+      ],
+      filter: "imac",
+      slug: "apple-imac-m1-24-pink256-gb",
+    },
+    {
+      id: "211",
+      name: "Apple iMac M1 24 4.5K 256GB 8GPU Silver   ",
+      price: 999,
+      details:
+        "Powered by the Apple M1 chip, iMac is incredibly thin and amazingly powerful. It stands out against any background and will fit perfectly into your life.The 24-inch iMac comes in multiple colors so you can choose the one that suits your style.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899192/9219ef2ed2b17c794c57503901342b75_yw0bb3.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899192/7aaf5e2cd217318a8a3b78cc2374badb_whaz5i.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899192/1ce70a802476499ab95bf701b5d5cb72_gqbmxb.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899192/a8b0103f61a6ca301aa47addbe65a277_wwcxbk.png",
+      ],
+      filter: "imac",
+      slug: "apple-imac-m1-24-silver256-gb",
+    },
+    {
+      id: "212",
+      name: "Apple Studio Display - Standard Glass - Tilt- and Height-Adjustable Stand",
+      price: 999,
+      details:
+        "The Apple Studio Display features a large 5k 27-inch Retina display, a 12MP ultra-wide camera with Spotlight, a six-speaker system with spatial audio support, and studio-quality microphones. It's so much more than just a monitor",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899823/468b7e63dedea7977cca1f65fb531c32_pr80hi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899822/06b1f940ae9b7f048e138d0dea53a85c_bykfpm.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899822/bad3704b248bb54ff941da7268ef342f_ypk0mo.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683899823/13d2180cd4bf3cd973fd1462a803a3c0_uvifdz.png",
+      ],
+      filter: "imac",
+      slug: "apple-studio-display-standard-glass-tilt-height-adjustable-stand",
+    },
   ],
-  playstation: [{}],
+  playstation: [
+    {
+      id: "217",
+      name: "PlayStation 5 Ultra HD Blu-ray (God of War Ragnarok)+PS5 Hogwarts",
+      price: 999,
+      details:
+        "Experience lightning-fast loading with a super-fast SSD, deeper immersion with haptic feedback, adaptive triggers and 3D audio, and a whole new generation of incredible PlayStation games. Lightning speed. Harness the power of your own CPU, GPU and SSD with integrated I/O that rewrites the rules of what a PlayStation console can do. Super fast solid state drive. Boost your gaming sessions with near-instantaneous downloads of installed PS5 games. Embedded I/O. The custom integration of PS5 console systems allows creators to retrieve data from the SSD so quickly that they can create games like never before. Awesome games. Marvel at incredible graphics and experience new PS5 features. Ray tracing. Immerse yourself in worlds with a new level of realism as beams of light are individually simulated to create realistic shadows and reflections in supported PS5 games. 4K TV games. Play your favorite PS5 games on your stunning 4K TV. Up to 120 fps with 120 Hz output. Enjoy smooth and fluid gameplay with high frame rates up to 120fps for compatible games that support 120Hz output on 4K displays. HDR technology. With an HDR TV, supported PS5 games display incredibly vibrant and true-to-life colors. 8K output. PS5 consoles support 8K output, so you can play games on your display at 4320p. Backward compatibility. Play the old catalog of PS4 games on your PS5 console. Game acceleration. Enjoy faster and smoother frame rates in select PS4 and PS VR games.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683901629/1678373385-khogvarts_oa3ool.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683901629/0731fbc4c9f6f1f25103e6dde1e15dd5_fimgik.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683901629/1678374035-1673941532-hl-2d-std-ps5-us_fo6vjg.png",
+      ],
+      filter: "playstation",
+      slug: "playStation-5-ultra-hd-bluray-god-of-war-ragnarok-hogwarts",
+    },
+    {
+      id: "218",
+      name: "PlayStation 5",
+      price: 999,
+      details:
+        "Experience lightning-fast loading with a super-fast SSD, deeper immersion with haptic feedback, adaptive triggers and 3D audio, and a whole new generation of incredible PlayStation games. Lightning speed. Harness the power of your own CPU, GPU and SSD with integrated I/O that rewrites the rules of what a PlayStation console can do. Super fast solid state drive. Boost your gaming sessions with near-instantaneous downloads of installed PS5 games. Embedded I/O. The custom integration of PS5 console systems allows creators to retrieve data from the SSD so quickly that they can create games like never before. Awesome games. Marvel at incredible graphics and experience new PS5 features. Ray tracing. Immerse yourself in worlds with a new level of realism as beams of light are individually simulated to create realistic shadows and reflections in supported PS5 games. 4K TV games. Play your favorite PS5 games on your stunning 4K TV. Up to 120 fps with 120 Hz output. Enjoy smooth and fluid gameplay with high frame rates up to 120fps for compatible games that support 120Hz output on 4K displays. HDR technology. With an HDR TV, supported PS5 games display incredibly vibrant and true-to-life colors. 8K output. PS5 consoles support 8K output, so you can play games on your display at 4320p. Backward compatibility. Play the old catalog of PS4 games on your PS5 console. Game acceleration. Enjoy faster and smoother frame rates in select PS4 and PS VR games.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683901759/cfedc3b69e90a15cee246f16d9347315_pui2c8.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683901759/89c6767fce6872b0496bad07573899ea_t26b7g.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683901759/7d8deb6036405c0dba1ba883fb814c70_zcbvwr.png",
+      ],
+      filter: "playstation",
+      slug: "playStation-5",
+    },
+  ],
+  dyson: [
+    {
+      id: "213",
+      name: "Dyson V15 Absolute Detect Cordless vacuum cleaner",
+      price: 999,
+      details:
+        "Vertical + manual vacuum cleaner (2 in 1) Dyson V15 Detect Absolute is manufactured in a modern design and is intended for dry cleaning. It uses innovative technologies and design solutions that make routine work easy, comfortable and productive. The model is equipped with a high-speed Dyson Hyperdymium motor, developing 125,000 revolutions per minute, which is powered by a removable battery. The battery provides 60 minutes of operation after a 45-minute charge. The device, which functions in three modes, has a set of nozzles that allow you to effectively clean various surfaces. Among them, it should be noted a nozzle with laser illumination, which makes the smallest dust clearly visible on a hard surface. Root Cyclone technology, using 14 cones, separates debris from air without reducing suction power. After it, dust and debris are directed to the container with a capacity of 0.76 liters, and the air flow is directed to the exit through a hermetic cleaning system that includes a HEPA filter. Dyson V15 Detect Absolute vertical + manual vacuum cleaner (2 in 1) is controlled by a button on the body, on the end of which there is a display, where complete information about the status and operation of the device is displayed",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900349/1676049415-394451-01_mknapl.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900350/1676049421-717013-11_tt1kvm.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900349/1676049420-717013-9_vfcpho.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900349/1676049420-717013-10_ns7npd.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900349/1676049416-717013-2_ebjm6s.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900349/1676049417-717013-3_p9nlyu.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900349/1676049419-717013-6_ly3xpv.png",
+      ],
+      filter: "dyson",
+      slug: "dyson-v15-absolute-detect-cordless-vacuum-cleaner",
+    },
+    {
+      id: "214",
+      name: "Dyson Supersonic Copper Hairdryer",
+      price: 999,
+      details:
+        "The Dyson Supersonic™ hair dryer is a true hair care expert. Designed to protect curls from extreme heat damage, it provides fast drying and unrivaled styling control to help increase smoothness by 75%, increase shine by 132% and reduce frizz by 61%. Create bold, elegant or playful looks every day and let Dyson make sure everything runs smoothly.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900633/1680160509-fen-dyson-hd07-supersonic-hair-dryer-nickelcopper-upgrade-version-389922-01-eu_x0z2df.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900632/1678887285-389922-01_zo3bgz.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900632/1680071651-photo-2023-03-29-09-22-14_r4pwih.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900632/1680071650-photo-2023-03-29-09-21-41_t3huhn.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900632/1680071649-photo-2023-03-29-09-20-00_ewiqqg.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900632/1680071652-photo-2023-03-29-09-22-43_e0zbtc.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900632/1680071653-photo-2023-03-29-09-23-09_flbehv.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900632/1680071654-photo-2023-03-29-09-23-39_oraqm8.png",
+      ],
+      filter: "dyson",
+      slug: "hairdryer-dyson-supersonic-copper",
+    },
+    {
+      id: "215",
+      name: "Dyson Airwrap Complete Long Styler",
+      price: 999,
+      details:
+        "Do you take care of your hair and consider its type when styling? This is very important, because thin and hard hair requires different tools! The Dyson Airwrap Complete styler is a true salon styling at home with hair care.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900901/1683113379-1_upauko.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900901/1683113379-2_brvtpr.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900901/1683113380-3_vpb5kd.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683900901/1683113378-4_zriqms.png",
+      ],
+      filter: "dyson",
+      slug: "dyson-styler-airwrap-complete-long",
+    },
+    {
+      id: "216",
+      name: "Dyson HP09 Air Purifier(Hot+Cool Formaldehyde)",
+      price: 999,
+      details:
+        "Purify the air in the whole room thanks to the Dyson Hot+Cool Formaldehyde HP09 Smart Air Purifier. Featuring a HEPA and carbon filter, the HP09filters 99.95% of potentially harmful particles, leaving the air free from dust, allergens or even formaldehyde particles.  The HP09 automatically senses particles and gases in your room and creates air quality reports. See them in real time on the LCD screen, or send them directly to your phone or tablet using the Dyson Link app. The HP09 is great for heating your room quickly in the winter. And you can use it to help cool the temperature down in the summer.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683901162/1678874366-anyconv_mz9vpm.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683901162/1678874397-anyconv_ynbkxv.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683901162/1678874420-anyconv_k9tub6.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683901163/1678874342-anyconv_krp5zi.png",
+      ],
+      filter: "dyson",
+      slug: "dyson-air-purifier-hot+cool-formaldehyde",
+    },
+  ],
 };
 
 // export const addSlug = (products) => {
@@ -2991,4 +3243,12 @@ export const products = {
 
 //   console.log(data);
 //   return data;
+// };
+
+// export const bla = (products) => {
+//   const paths = Object.values(products).flatMap((products) => {
+//     return products.map((product) => ({ params: { slug: product.slug } }));
+//   });
+
+//   return paths;
 // };

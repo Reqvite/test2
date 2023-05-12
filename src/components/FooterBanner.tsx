@@ -21,6 +21,7 @@ const FooterBanner: FC<{ footerBanner: BannerI }> = ({
     <div className="footer-banner-container">
       <div className="banner-desc">
         <div className="left">
+          Text
           {/* <p>{discount}</p>
           <h3>{largeText1}</h3>
           <h3>{largeText2}</h3>
@@ -35,14 +36,6 @@ const FooterBanner: FC<{ footerBanner: BannerI }> = ({
             <button type="button">button</button>
           </Link>
         </div>
-        <Image
-          src=''
-          alt="headphones"
-          className="footer-banner-image"
-          width="555"
-          height="555"
-          unoptimized={true}
-        />
       </div>
     </div>
   );

@@ -24,7 +24,7 @@ export const Context = createContext<ContextI>({
 
 export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
   const [showCart, setShowCart] = useState<boolean>(false);
-  const [filterOptions, setFilterOptions] = useState<object>({ product: '', filter: '' });
+  const [filterOptions, setFilterOptions] = useState<{ product: string, filter: string }>({ product: '', filter: '' });
   const [cartItems, setCartItems] = useLocalStorage<ProductWithQuantityI[]>(
     "cartItems",
     []

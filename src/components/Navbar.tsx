@@ -9,7 +9,7 @@ const Navbar: FC = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">Headphones Store</Link>
+        <Link href="/">Store</Link>
       </p>
       <button
         type="button"

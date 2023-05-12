@@ -1,13 +1,27 @@
-import Link from 'next/link';
+import { FC, useEffect } from "react";
 import { BsBagCheckFill } from "react-icons/bs";
-import { useRouter } from 'next/router';
-import React from 'react'
+import { useRouter } from "next/router";
 
-const Custom404 = () => {
+import { useStateContext } from "../context/StateContext";
+import Link from "next/link";
+import { runConfetti } from "@/lib/confetti";
+
+
+const Success: FC = () => {
+    const { setCartItems, setTotalPrice, setTotalQuantities } = useStateContext();
 
     const router = useRouter();
     const { status } = router.query;
 
+    useEffect(() => {
+        if (status === "true") {
+            localStorage.clear();
+            setCartItems([]);
+            setTotalPrice(0);
+            setTotalQuantities(0);
+            runConfetti();
+        }
+    }, [router, setCartItems, setTotalPrice, setTotalQuantities, status]);
 
     return (
         <div className="success-wrapper">
@@ -40,6 +54,6 @@ const Custom404 = () => {
             </div>
         </div>
     );
-}
+};
 
-export default Custom404
+export default Success;

@@ -9,7 +9,6 @@ import {
 } from "react-icons/ai";
 import { TiDeleteOutline } from "react-icons/ti";
 import toast from "react-hot-toast";
-
 import { useStateContext } from "../context/StateContext";
 import Image from "next/image";
 import { getStripe } from "@/lib/getStripe";
@@ -104,7 +103,7 @@ const Cart: FC = () => {
             )}
             <div className="product-container">
               {cartItems.length >= 1 &&
-                cartItems.map((item) => (
+                cartItems.map((item: any) => (
                   <div className="product" key={item.id}>
                     <Image
                       src={item?.image[0]}

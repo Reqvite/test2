@@ -3,8 +3,8 @@ import { ProductWithQuantityI } from "./product";
 export interface ContextI {
   showCart: boolean;
   setShowCart: (show: boolean) => void;
-  cartItems: ProductWithQuantityI[];
-  setCartItems: (items: ProductWithQuantityI[]) => void;
+  cartItems: any;
+  setCartItems: (items: any) => void;
   totalPrice: number;
   setTotalPrice: (price: number) => void;
   totalQuantities: number;
@@ -16,5 +16,5 @@ export interface ContextI {
   toggleCartItemQuanitity: (id: string, value: string) => void;
   onRemove: (product: ProductWithQuantityI) => void;
   filterOptions: { product: string; filter: string };
-  setFilterOptions: ({}) => void;
+  setFilterOptions: ({}: any) => void;
 }

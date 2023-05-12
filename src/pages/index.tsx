@@ -1,8 +1,9 @@
 import { FC } from "react";
-import { Product, FooterBanner, HeroBanner, Filter } from "../components";
-import { BannerI, ProductI } from "@/types";
+import { FooterBanner, HeroBanner, Filter } from "../components";
+import { BannerI } from "@/types";
 import { products } from "@/data/data";
 import { useStateContext } from "@/context/StateContext";
+import PaginatedItems from "@/components/ui/Paginator";
 
 const Home: FC<{ products: any; banners: BannerI[] }> = ({
     products,
@@ -18,24 +19,20 @@ const Home: FC<{ products: any; banners: BannerI[] }> = ({
             const filteredProducts = products[filterOptions.product]?.filter(({ filter }: any) => filter === filterOptions.filter)
             return filteredProducts
         } else {
-            return products.apple
+            return products[filterOptions.product] || products.apple
         }
     }
 
 
     return (
         <>
-            <HeroBanner heroBanner={products && products} />
+            <HeroBanner />
             <Filter />
             <div className="products-heading">
                 <h2>Best Selling Products</h2>
                 <p>Speakers of many variations</p>
             </div>
-            <div className="products-container">
-                {handleFilter(filterOptions)?.map((product: any) => (
-                    <Product key={product.id} {...product} />
-                ))}
-            </div>
+            <PaginatedItems items={handleFilter(filterOptions)} itemsPerPage={20} />
             <FooterBanner footerBanner={banners && banners[0]} />
         </>
     );
