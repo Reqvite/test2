@@ -1,16 +1,12 @@
 import { FC, useState } from "react";
 import Image from "next/image";
-import {
-  AiOutlineMinus,
-  AiOutlinePlus,
-  AiFillStar,
-  AiOutlineStar,
-} from "react-icons/ai";
+import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 import { Product } from "@/components";
 import { useStateContext } from "../../context/StateContext";
 import { ProductI, ProductWithQuantityI } from "@/types";
 import { GetServerSideProps } from "next";
 import { products } from "@/data/data";
+import Reviews from "@/components/ui/Reviews";
 
 const ProductDetails: FC<{
   product: ProductWithQuantityI;
@@ -18,7 +14,8 @@ const ProductDetails: FC<{
   const { image, name, details, price } = product;
 
   const [index, setIndex] = useState(0);
-  const { decQty, incQty, qty, onAdd, setShowCart } = useStateContext();
+  const { decQty, incQty, qty, onAdd, setShowCart, reviews } =
+    useStateContext();
 
   const handleBuyNow = () => {
     onAdd(product, qty);
@@ -67,16 +64,7 @@ const ProductDetails: FC<{
 
         <div className="product-detail-desc">
           <h1>{name}</h1>
-          <div className="reviews">
-            <div>
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiFillStar />
-              <AiOutlineStar />
-            </div>
-            <p>(20)</p>
-          </div>
+          {reviews && <Reviews id={product.id} reviews={reviews} />}
           <h4>Details: </h4>
           <p>{details}</p>
           <p className="price">${price}</p>

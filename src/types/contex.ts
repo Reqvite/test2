@@ -17,4 +17,6 @@ export interface ContextI {
   onRemove: (product: ProductWithQuantityI) => void;
   filterOptions: { product: string; filter: string };
   setFilterOptions: ({}: any) => void;
+  reviews: string[];
+  setReviews: ([]) => void;
 }

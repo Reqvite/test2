@@ -1,0 +1,11 @@
+.review-box {
+  cursor: pointer;
+
+  transition: color 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.review-box:hover,
+.review-box:focus {
+  cursor: pointer;
+  color: gold;
+}

@@ -20,9 +20,12 @@ export const Context = createContext<ContextI>({
   onRemove: () => {},
   filterOptions: { product: "", filter: "" },
   setFilterOptions: () => {},
+  reviews: [],
+  setReviews: ([]) => {},
 });
 
 export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
+  const [reviews, setReviews] = useLocalStorage<string[]>("reviews", []);
   const [showCart, setShowCart] = useState<boolean>(false);
   const [filterOptions, setFilterOptions] = useState<{
     product: string;
@@ -160,6 +163,8 @@ export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
         onRemove,
         filterOptions,
         setFilterOptions,
+        reviews,
+        setReviews,
       }}
     >
       {children}

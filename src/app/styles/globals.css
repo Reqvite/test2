@@ -135,6 +135,7 @@ span.text-red {
   font-weight: 500;
 }
 .product-price {
+  text-align: right;
   font-weight: 800;
   margin-top: 6px;
   color: black;
@@ -549,6 +550,8 @@ span.text-red {
   font-weight: 500;
   background-color: white;
   color: #f02d34;
+  border: 2px solid;
+  border-radius: 15px;
   cursor: pointer;
   width: 200px;
   transform: scale(1, 1);
@@ -564,6 +567,7 @@ span.text-red {
   background-color: #f02d34;
   color: white;
   border: none;
+  border-radius: 15px;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
@@ -576,6 +580,7 @@ span.text-red {
 }
 .quantity-desc {
   border: 1px solid gray;
+  border-radius: 5px;
   padding: 6px;
 }
 .quantity-desc span {
@@ -584,10 +589,11 @@ span.text-red {
   cursor: pointer;
 }
 .quantity-desc .minus {
-  border-right: 1px solid gray;
   color: #f02d34;
 }
+
 .quantity-desc .num {
+  border-left: 1px solid gray;
   border-right: 1px solid gray;
   font-size: 20px;
 }
