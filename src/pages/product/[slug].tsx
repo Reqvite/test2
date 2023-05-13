@@ -26,9 +26,11 @@ const ProductDetails: FC<{
   const cutProducts = products.slice(0, 20).map((product: any) => {
     return {
       ...product,
-      name: name.slice(0, 27) + "...",
+      name: product.name.slice(0, 27) + "...",
     };
   });
+
+  console.log(cutProducts);
 
   return (
     <div>
