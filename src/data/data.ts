@@ -3130,8 +3130,574 @@ export const products = {
       filter: "imac",
       slug: "apple-studio-display-standard-glass-tilt-height-adjustable-stand",
     },
+    {
+      id: "219",
+      name: "Apple iPad Air 10.9 64 GB Wi-Fi Blue",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/30fb1b95216e4c2af97949649d1cf968_dsdfla.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-blue",
+    },
+
+    {
+      id: "220",
+      name: "Apple iPad Air 10.9 64 GB Wi-Fi Space Grey",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/d39d62d734897fb9eb3732905fc02682_hvyg2f.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-spacegrey",
+    },
+    {
+      id: "221",
+      name: "Apple iPad Air 10.9 64 GB Wi-Fi Pink ",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/f8b5da6581cce90d87feaebcbdd270cb_faxqrp.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-pink",
+    },
+    {
+      id: "222",
+      name: "Apple iPad Air 10.9 64 GB Wi-Fi Pink ",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/f8b5da6581cce90d87feaebcbdd270cb_faxqrp.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-pink",
+    },
+
+    {
+      id: "223",
+      name: "Apple iPad Air 10.9 64 GB Wi-Fi Purple ",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/c18ffb9476679fffcfde9631fd99465a_xcplgn.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-purple",
+    },
+    {
+      id: "224",
+      name: "Apple iPad Air 10.9 64 GB Wi-Fi Starlight  ",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/83ee45cbab762f8b7f94bf901898f1c5_pjldrq.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-starlight ",
+    },
+
+    {
+      id: "225",
+      name: "Apple iPad Air 10.9 256 GB Wi-Fi+4G Blue",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/30fb1b95216e4c2af97949649d1cf968_dsdfla.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-4g-blue",
+    },
+
+    {
+      id: "226",
+      name: "Apple iPad Air 10.9 256 GB Wi-Fi+4G Space Grey",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/d39d62d734897fb9eb3732905fc02682_hvyg2f.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-4g-spacegrey",
+    },
+    {
+      id: "227",
+      name: "Apple iPad Air 10.9 256 GB Wi-Fi+4G Pink ",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/f8b5da6581cce90d87feaebcbdd270cb_faxqrp.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-4g-pink",
+    },
+    {
+      id: "228",
+      name: "Apple iPad Air 10.9 256 GB Wi-Fi+4G Pink ",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/f8b5da6581cce90d87feaebcbdd270cb_faxqrp.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-4g-pink",
+    },
+
+    {
+      id: "229",
+      name: "Apple iPad Air 10.9 256 GB Wi-Fi+4G Purple ",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/c18ffb9476679fffcfde9631fd99465a_xcplgn.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-4g-purple",
+    },
+    {
+      id: "230",
+      name: "Apple iPad Air 10.9 256 GB Wi-Fi+4G Starlight  ",
+      price: 999,
+      details:
+        "Powerful. Brightly. Wonderful. Much of what is inaccessible to the computer is easily and magically done on the iPad Air. And now the capabilities of iPad Air have become even wider and more diverse thanks to the powerful Apple M1 processor.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683969975/83ee45cbab762f8b7f94bf901898f1c5_pjldrq.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-air-10.9'-64gb-wi-fi-4g-starlight ",
+    },
+
+    {
+      id: "231",
+      name: "Apple iPad Pro 11 512GB M2 Wi-Fi+4G Space Gray",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948958-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1b-wwce_awvsx4.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1a-wwce_gmpr6x.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948983-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-2-wwce_dm2hfi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-8-wwce_ecsvop.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-11-512gb-m2-wi-fi+4g-spacegray",
+    },
+    {
+      id: "232",
+      name: "Apple iPad Pro 11 512GB M2 Wi-Fi+4G Silver",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1b-wwce_hjknkk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1a-wwce_wdug9b.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948497-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-2-wwce_jijjyw.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971988/1666948495-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-8-wwce_bn02ua.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-11-512gb-m2-wi-fi+4g-silver",
+    },
+    {
+      id: "233",
+      name: "Apple iPad Pro 11 1 TB M2 Wi-Fi+4G Space Gray",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948958-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1b-wwce_awvsx4.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1a-wwce_gmpr6x.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948983-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-2-wwce_dm2hfi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-8-wwce_ecsvop.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-11-1tb-m2-wi-fi+4g-spacegray",
+    },
+    {
+      id: "234",
+      name: "Apple iPad Pro 11 1 TB M2 Wi-Fi+4G Silver",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1b-wwce_hjknkk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1a-wwce_wdug9b.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948497-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-2-wwce_jijjyw.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971988/1666948495-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-8-wwce_bn02ua.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-11-1tb-m2-wi-fi+4g-silver",
+    },
+    {
+      id: "235",
+      name: "Apple iPad Pro 11 2 TB M2 Wi-Fi+4G Space Gray",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948958-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1b-wwce_awvsx4.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1a-wwce_gmpr6x.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948983-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-2-wwce_dm2hfi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-8-wwce_ecsvop.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-11-2tb-m2-wi-fi+4g-spacegray",
+    },
+    {
+      id: "236",
+      name: "Apple iPad Pro 11 2 TB M2 Wi-Fi+4G Silver",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1b-wwce_hjknkk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1a-wwce_wdug9b.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948497-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-2-wwce_jijjyw.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971988/1666948495-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-8-wwce_bn02ua.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-11-2tb-m2-wi-fi+4g-silver",
+    },
+
+    {
+      id: "237",
+      name: "Apple iPad Pro 12.9 128 GB M2 Wi-Fi+4G Space Gray",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948958-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1b-wwce_awvsx4.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1a-wwce_gmpr6x.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948983-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-2-wwce_dm2hfi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-8-wwce_ecsvop.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-12.9-128gb-m2-wi-fi+4g-spacegray",
+    },
+    {
+      id: "238",
+      name: "Apple iPad Pro 12.9 128 GB M2 Wi-Fi+4G Silver",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1b-wwce_hjknkk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1a-wwce_wdug9b.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948497-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-2-wwce_jijjyw.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971988/1666948495-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-8-wwce_bn02ua.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-12.9-128gb-m2-wi-fi+4g-silver",
+    },
+    {
+      id: "239",
+      name: "Apple iPad Pro 12.9 256 GB M2 Wi-Fi+4G Space Gray",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948958-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1b-wwce_awvsx4.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1a-wwce_gmpr6x.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948983-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-2-wwce_dm2hfi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-8-wwce_ecsvop.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-12.9-256gb-m2-wi-fi+4g-spacegray",
+    },
+    {
+      id: "249",
+      name: "Apple iPad Pro 12.9 256 GB M2 Wi-Fi+4G Silver",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1b-wwce_hjknkk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1a-wwce_wdug9b.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948497-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-2-wwce_jijjyw.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971988/1666948495-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-8-wwce_bn02ua.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-12.9-256gb-m2-wi-fi+4g-silver",
+    },
+    {
+      id: "241",
+      name: "Apple iPad Pro 11 512 GB M2 Wi-Fi+4G Space Gray",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948958-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1b-wwce_awvsx4.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1a-wwce_gmpr6x.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948983-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-2-wwce_dm2hfi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-8-wwce_ecsvop.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-12.9-215gb-m2-wi-fi+4g-spacegray",
+    },
+    {
+      id: "242",
+      name: "Apple iPad Pro 11 512 GB M2 Wi-Fi+4G Silver",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1b-wwce_hjknkk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1a-wwce_wdug9b.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948497-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-2-wwce_jijjyw.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971988/1666948495-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-8-wwce_bn02ua.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-11-512gb-m2-wi-fi+4g-silver",
+    },
+    {
+      id: "243",
+      name: "Apple iPad Pro 11 1 TB M2 Wi-Fi+4G Space Gray",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948958-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1b-wwce_awvsx4.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1a-wwce_gmpr6x.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948983-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-2-wwce_dm2hfi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-8-wwce_ecsvop.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-12.9-1tb-m2-wi-fi+4g-spacegray",
+    },
+    {
+      id: "244",
+      name: "Apple iPad Pro 12.9 1 TB M2 Wi-Fi+4G Silver",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1b-wwce_hjknkk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1a-wwce_wdug9b.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948497-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-2-wwce_jijjyw.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971988/1666948495-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-8-wwce_bn02ua.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-12.9-1tb-m2-wi-fi+4g-silver",
+    },
+    {
+      id: "245",
+      name: "Apple iPad Pro 12.9 2 TB M2 Wi-Fi+4G Space Gray",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948958-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1b-wwce_awvsx4.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-1a-wwce_gmpr6x.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948983-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-2-wwce_dm2hfi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971849/1666948957-ipad-pro-q123-cellular-11-in-4th-generation-space-gray-pdp-image-position-8-wwce_ecsvop.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-12.9-2tb-m2-wi-fi+4g-spacegray",
+    },
+    {
+      id: "246",
+      name: "Apple iPad Pro 12.9 2 TB M2 Wi-Fi+4G Silver",
+      price: 999,
+      details:
+        "Incredible performance, ultra-fast wireless and advanced experience with Apple Pencil. Plus new iPadOS 16 features for more efficiency and collaboration",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1b-wwce_hjknkk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948496-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-1a-wwce_wdug9b.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971989/1666948497-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-2-wwce_jijjyw.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683971988/1666948495-ipad-pro-q123-cellular-11-in-4th-generation-silver-pdp-image-position-8-wwce_bn02ua.png",
+      ],
+      filter: "ipad",
+      slug: "apple-ipad-pro-12.9-2tb-m2-wi-fi+4g-silver",
+    },
+    {
+      id: "251",
+      name: "Apple Watch ULTRA 49mm Titanium Case with Midnight Ocean Band",
+      price: 999,
+      details:
+        "The toughest and most capable Apple Watch, built for action travel, adventure and endurance sports.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988507/2e41c8be515101512fb0c3080bdcb90d_w22lwd.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988507/c813153ef2956f8e696d2b7f0a08810e_ajyhvf.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988507/1664887145-uaua-w4_veqobf.png",
+      ],
+      filter: "apple watch",
+      slug: "apple-watch-ultra-49mm-titanium-case-midnight-ocean-band",
+    },
+    {
+      id: "252",
+      name: "Apple Watch ULTRA 49mm Titanium Case with White Ocean Band",
+      price: 999,
+      details:
+        "The toughest and most capable Apple Watch, built for action travel, adventure and endurance sports.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988683/0006bf1fbeea494497de42eb0abfccdf_apjqvu.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988684/50d94db8d50f796b0268538feaf41c76_bm6a1q.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988683/1664887312-uaua-w4_hw3p4i.png",
+      ],
+      filter: "apple watch",
+      slug: "apple-watch-ultra-49mm-titanium-case-white-ocean-band",
+    },
+    {
+      id: "253",
+      name: "Apple Watch ULTRA 49mm Titanium Case with Yellow Ocean Band",
+      price: 999,
+      details:
+        "The toughest and most capable Apple Watch, built for action travel, adventure and endurance sports.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988684/805ddb2127835d4ea78f6dbe9832ceb9_oyhqli.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988683/4dfb0fc02ce9944b3a5671e25ad79d2d_hkfzwe.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988683/1664887411-uaua-w4_fx6kli.png",
+      ],
+      filter: "apple watch",
+      slug: "apple-watch-ultra-49mm-titanium-case-yellow-ocean-band",
+    },
+    {
+      id: "254",
+      name: "Apple Watch Series 8 45mm Silver Aluminum Case",
+      price: 999,
+      details:
+        "Apple Watch Series 8 is a watch with advanced health sensors and apps. With it, you can measure your heart rate, blood oxygen levels, and track changes in temperature. And with Crash Detection, sleep phase monitoring, and advanced workout metrics, it's easier to follow a more active lifestyle, take care of your health, take care of safety and be in touch.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988613/1664882427-ua19e0-1_mnzkqb.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988613/e2bea7203dc9bd6cfa0caa1273f3e8d2_aw6osf.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988613/ec22b3700a4dd6ff6f4c9801ec51d3dc_n7bbbn.png",
+      ],
+      filter: "apple watch",
+      slug: "apple-watch-series8-45mm-silver-aluminum-case",
+    },
+
+    {
+      id: "255",
+      name: "Apple Watch Series 8 45mm Starlight Aluminum Case",
+      price: 999,
+      details:
+        "Apple Watch Series 8 is a watch with advanced health sensors and apps. With it, you can measure your heart rate, blood oxygen levels, and track changes in temperature. And with Crash Detection, sleep phase monitoring, and advanced workout metrics, it's easier to follow a more active lifestyle, take care of your health, take care of safety and be in touch.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683989080/1664883565-uaua-w4-copy-0_1_q8yfzo.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988612/45a857ca702fb527e771c2f324eb4aca_bq6wmu.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988613/e8cb92e6b8e5a058f8b397cb4ab3f8c8_sadfbl.png",
+      ],
+      filter: "apple watch",
+      slug: "apple-watch-series8-45mm-starlight-aluminum-case",
+    },
+    {
+      id: "256",
+      name: "Apple Watch Series 8 45mm Red Aluminum Case",
+      price: 999,
+      details:
+        "Apple Watch Series 8 is a watch with advanced health sensors and apps. With it, you can measure your heart rate, blood oxygen levels, and track changes in temperature. And with Crash Detection, sleep phase monitoring, and advanced workout metrics, it's easier to follow a more active lifestyle, take care of your health, take care of safety and be in touch.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988612/5b3136661680e89c755c222f0a1b995f_kbdpag.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988613/ec22b3700a4dd6ff6f4c9801ec51d3dc_n7bbbn.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683988612/90db3644dc2fbb6d29728f70d2cd37ae_twkxpg.png",
+      ],
+      filter: "apple watch",
+      slug: "apple-watch-series8-45mm-red-aluminum-case",
+    },
+    {
+      id: "257",
+      name: "Apple Watch Series 8 45mm Midnight Aluminum Case",
+      price: 999,
+      details:
+        "Apple Watch Series 8 is a watch with advanced health sensors and apps. With it, you can measure your heart rate, blood oxygen levels, and track changes in temperature. And with Crash Detection, sleep phase monitoring, and advanced workout metrics, it's easier to follow a more active lifestyle, take care of your health, take care of safety and be in touch.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683989222/1664883799-ua29c81_b3ib3n.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683989221/41fa97331f54cf7f85574154d3d97baf_ux58fb.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683989222/cf565c8a6fc895171e11f08dedb78285_tmksxe.png",
+      ],
+      filter: "apple watch",
+      slug: "apple-watch-series8-45mm-red-midnight-case",
+    },
+
+    {
+      id: "258",
+      name: "AirPods Max Space Gray",
+      price: 999,
+      details:
+        "AirPods Max completely redefine over-ear headphones. An Apple-designed driver delivers high-definition audio. From the headband to the ear cups, every detail is designed for total comfort. Advanced Active Noise Cancellation blocks outside noise, while Transparency Mode lets you hear the world around you. With spatial audio and dynamic head tracking, you get the same surround sound experience as you would in a movie theater.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683996880/0eb78463cc1923c85c532557e8a51c22_pbar4p.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683996880/f9e709b990ee556ade929fa2f83f5397_lwgshy.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683996880/3e3744576bc056f4252471597d06a0ad_easz91.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683996880/6a71c2edf586d62bd19a9feebc912dd0_kofrhe.png",
+      ],
+      filter: "airpods",
+      slug: "airpods-max-space-gray",
+    },
+    {
+      id: "259",
+      name: "AirPods Max Green",
+      price: 999,
+      details:
+        "AirPods Max completely redefine over-ear headphones. An Apple-designed driver delivers high-definition audio. From the headband to the ear cups, every detail is designed for total comfort. Advanced Active Noise Cancellation blocks outside noise, while Transparency Mode lets you hear the world around you. With spatial audio and dynamic head tracking, you get the same surround sound experience as you would in a movie theater.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997076/ff7917f1e07a69fa046f8295bee07bc7_qtjl0t.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997075/a3b0d18bca596972884d462857bf1946_wh82te.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997076/e19a56cfb60b0eed0c1e1fa4583a1179_gv9uud.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997075/674e63bdb9baf824b50c7f452952ab84_xeziax.png",
+      ],
+      filter: "airpods",
+      slug: "airpods-max-green",
+    },
+    {
+      id: "260",
+      name: "AirPods Max Pink",
+      price: 999,
+      details:
+        "AirPods Max completely redefine over-ear headphones. An Apple-designed driver delivers high-definition audio. From the headband to the ear cups, every detail is designed for total comfort. Advanced Active Noise Cancellation blocks outside noise, while Transparency Mode lets you hear the world around you. With spatial audio and dynamic head tracking, you get the same surround sound experience as you would in a movie theater.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997149/698541ae89e32d6448667fdc707baa54_ye5sxa.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997149/6b5b161ed33af4c7537d85db0258e761_vwi8l6.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997149/0c162451da6bfa74540c8260cbbe7ba3_l81bym.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997149/d2bcdebcaa9b82f9411c905677d240db_fibmfe.png",
+      ],
+      filter: "airpods",
+      slug: "airpods-max-pink",
+    },
+    {
+      id: "261",
+      name: "AirPods Max Silver",
+      price: 999,
+      details:
+        "AirPods Max completely redefine over-ear headphones. An Apple-designed driver delivers high-definition audio. From the headband to the ear cups, every detail is designed for total comfort. Advanced Active Noise Cancellation blocks outside noise, while Transparency Mode lets you hear the world around you. With spatial audio and dynamic head tracking, you get the same surround sound experience as you would in a movie theater.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997223/d7063d644dec95051920d31be00e98d8_ya8bus.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997223/dd6b1e954e4a26e26b199d96b3895a30_vqiueb.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997223/93bfd1a179224373766f3eb9b484e213_ar5vtf.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997223/adb6d4dcff05e22ba0de7a66b97c03ef_ffrzn1.png",
+      ],
+      filter: "airpods",
+      slug: "airpods-max-silver",
+    },
+    {
+      id: "262",
+      name: "AirPods Max Sky Blue",
+      price: 999,
+      details:
+        "AirPods Max completely redefine over-ear headphones. An Apple-designed driver delivers high-definition audio. From the headband to the ear cups, every detail is designed for total comfort. Advanced Active Noise Cancellation blocks outside noise, while Transparency Mode lets you hear the world around you. With spatial audio and dynamic head tracking, you get the same surround sound experience as you would in a movie theater.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997303/569b8db9b15253a396ac400eb54d2003_whvckb.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997303/84eb2a97ffda6dbb8322a2a92a9413cb_mogsnj.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997303/e7b2831f83ab823891efdd797821a1b0_uogrth.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997303/0f1670fef08f148ed4597649a4300474_ay1oll.png",
+      ],
+      filter: "airpods",
+      slug: "airpods-max-sky-blue",
+    },
   ],
-  playstation: [
+  gaming: [
     {
       id: "217",
       name: "PlayStation 5 Ultra HD Blu-ray (God of War Ragnarok)+PS5 Hogwarts",
@@ -3159,6 +3725,106 @@ export const products = {
       ],
       filter: "playstation",
       slug: "playStation-5",
+    },
+    {
+      id: "247",
+      name: "ASUS ROG Ally gaming console",
+      price: 999,
+      details:
+        "Enjoy AAA gaming anytime with the new ROG Ally. Featuring a powerful AMD processor and a 7-inch 120Hz screen, this compact gaming console from ASUS delivers incredible gaming performance and an immersive virtual gaming experience. Wherever you are.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973055/1682664567-cdk5guvdjqhe3dgnirytka_oaemfs.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973055/1682664532-d940e1e9c767ac43b27f4dadf6549685_ixnrxp.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973055/1682664531-7755d7d70307698655ee4315f47d7760_qlcx0k.png",
+      ],
+      filter: "console",
+      slug: "asus-rog-ally-gaming-console",
+    },
+    {
+      id: "248",
+      name: "Lenovo Legion 5 15ITH6H Phantom Blue",
+      price: 999,
+      details:
+        "Ready for gaming challenges The powerful Lenovo Legion 5 15ITH6 delivers everything you need for a great gaming experience in a sleek design. The NVIDIA GeForce RTX 3070 graphics card is responsible for processing complex graphics, while the Intel Core i7 processor will take care of high performance. The updated thermal management system maintains the optimal temperature of all laptop components. Get ready for bright game victories! Great gaming and work experience The Lenovo Legion 5 15ITH6 delivers excellent performance with 16GB of DDR4 RAM and a 16-thread Intel Core i7-11800H processor. The base clock speed of 2.3 GHz automatically increases to 4.6 GHz when you need maximum power. Launch demanding games or professional applications. The Legion 5's RAM can be increased by adding a module to an available slot.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973496/dd61b5974b4a77cf34539b6199ed0813_jqqybr.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973496/287f986c4c4bb1bf4aec61c5a65faff0_phrqbd.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973496/b09a8bf987ad457f1ec7d1569ab0f43f_ayydrk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973496/7b77626b7a27daae2c0320bf4a2c79b2_cxizvm.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973496/d9af3608ba8fb644a6d926b5c1130fe9_wwj4pp.png",
+      ],
+      filter: "laptop",
+      slug: "lenovo-legion-5-15ith6h-phantom-blue",
+    },
+    {
+      id: "249",
+      name: "Lenovo Legion 5 Pro 16ITH6H Stingray",
+      price: 999,
+      details:
+        "More play and creativity With the Lenovo Legion 5 Pro 16ITH6H laptop, you can achieve the most important victories. A thin and light device with impressive autonomy and high performance can interact with any multimedia content: from browsing websites and streaming video to creating 3D graphics or playing new games at high settings. The model has a stylish case with a recognizable logo on the lid. Powerful device for your success The Lenovo Legion 5 Pro 16ITH6H laptop is equipped with an Intel Core i7-11800H processor with eight cores that can process up to 16 data streams simultaneously. 16 GB DDR4 RAM is responsible for quick system response to commands and requests, and a 512 GB SSD drive is provided for storing games, applications and user files. The NVIDIA GeForce RTX 3060 6 GB graphics card with support for ray tracing technology is responsible for creating realistic graphics in this model. Play and create multimedia content without limits!.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267503-notebook-711811-2_xpbwej.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267502-notebook-711811-1_nadhso.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973805/1666267508-notebook-711811-11_cyomti.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267507-notebook-711811-9_cyumqz.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267505-notebook-711811-5_uophi1.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267507-notebook-711811-8_mrcama.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267508-notebook-711811-10_ekuwj4.png",
+      ],
+      filter: "laptop",
+      slug: "lenovo-legion-5-pro-16ith6h-stingray",
+    },
+    {
+      id: "263",
+      name: "Meta Quest Pro 256GB VR headset",
+      price: 999,
+      details:
+        "Meta Quest Pro One headset, many possibilities Meta Quest Pro is a new virtual reality helmet that will change the way you work, create and collaborate. Immerse yourself in new game worlds, feeling like a full participant in the action, or design your future home before it's even built. This amazing helmet gives you tons of possibilities. The next generation optics, full color mixed reality with high resolution, convenient and functional Meta Quest Touch Pro controllers and improved sound will help you get into your entertainment or work. Moreover, the premium design developed for supreme comfort allows you to forget about everything external and focus on what's in front of you. Step into the future with Meta Quest Pro!",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997693/1672214780-3855-ochki-virtualnoy-realnost_ekd9ck.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997693/1672212873-3856-ochki-virtualnoy-realnost_utuhop.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997693/1672212872-3857-ochki-virtualnoy-realnost_ht1urs.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997693/1672212871-3860-ochki-virtualnoy-realnost_vqcgzk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997693/1672212871-3860-ochki-virtualnoy-realnost_vqcgzk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683997693/1672212868-3864-ochki-virtualnoy-realnost_pb8k1y.png",
+      ],
+      filter: "vr",
+      slug: "meta-quest-pro-256Ggb-vr-headset",
+    },
+    {
+      id: "264",
+      name: "HTC VIVE PRO 2 FULL KIT Blue-Black",
+      price: 999,
+      details:
+        "HTC VIVE Pro 2 is designed to meet the needs of the most demanding virtual reality users, a virtual reality system that delivers superior graphics and sound. With useful and pragmatic ergonomics, enjoy a smooth and comfortable immersion experience.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998089/4ca2a1d620c3c342c0fd495dccba3307_wlypen.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998089/ede82b6ab098a6592394ca14a4e9d171_mzyb7x.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998089/4c6c4ed09e3a1a879890b5ccf7e0321c_gcbog9.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998089/811a2a326cea048912e30591c6c1b259_fxgdhg.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998089/59950a1f3b2bb2785437221e966821bb_gv8w0x.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998089/caf8c58749760576c3b2cbf8f1da9c90_mljm5w.png",
+      ],
+      filter: "vr",
+      slug: "htc-vive-pro-2-full-kit-blueblack",
+    },
+    {
+      id: "265",
+      name: "Oculus Quest 2 256 GB VR Headset",
+      price: 999,
+      details:
+        "Above all expectations Enjoy unprecedented freedom of movement in amazing games and products.Improved performance The new Qualcomm® Snapdragon™ XR2 platform and 6GB RAM give you high performance. Even better moves The upgraded Touch controllers feature advanced motion-tracking technology. Experience virtual reality in your hands.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998331/7c3f25b0e3b9ef9c3463d6fb3fac7bca_vokb1d.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998331/03211544b418af9258a727e8994b6e2a_hhp34d.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998332/a999115e75dc06715508a60381b7d107_tw1o7r.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998332/f9d6b978dc0c628ebc19e1c1a945e9c2_tt2v97.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998331/67e9c53c732bf3b65dabf938d7357d0b_xlpsia.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998331/91a12b0814909c2cc799fb31847823d7_xoagx5.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683998331/8d778a59620f7038a388c0aa1668f959_rr0jho.png",
+      ],
+      filter: "vr",
+      slug: "oculus-quest2-256bg-vr-headset",
     },
   ],
   dyson: [

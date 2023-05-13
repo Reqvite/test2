@@ -19,4 +19,6 @@ export interface ContextI {
   setFilterOptions: ({}: any) => void;
   reviews: string[];
   setReviews: ([]) => void;
+  privacy: boolean;
+  setPrivacy: any;
 }

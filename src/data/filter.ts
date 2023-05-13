@@ -4,8 +4,8 @@ export const buttons = [
     filter: "apple",
   },
   {
-    title: "Playstation",
-    filter: "playstation",
+    title: "Gaming",
+    filter: "gaming",
   },
   {
     title: "Dyson",

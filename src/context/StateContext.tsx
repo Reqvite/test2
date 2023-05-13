@@ -22,9 +22,12 @@ export const Context = createContext<ContextI>({
   setFilterOptions: () => {},
   reviews: [],
   setReviews: ([]) => {},
+  privacy: false,
+  setPrivacy: () => {},
 });
 
 export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
+  const [privacy, setPrivacy] = useLocalStorage<boolean>("privacy", false);
   const [reviews, setReviews] = useLocalStorage<string[]>("reviews", []);
   const [showCart, setShowCart] = useState<boolean>(false);
   const [filterOptions, setFilterOptions] = useState<{
@@ -163,6 +166,8 @@ export const StateContext: FC<{ children: ReactNode }> = ({ children }) => {
         setFilterOptions,
         reviews,
         setReviews,
+        privacy,
+        setPrivacy,
       }}
     >
       {children}
