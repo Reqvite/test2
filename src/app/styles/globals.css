@@ -463,6 +463,11 @@ span.text-red {
   color: #324d67;
 }
 
+.product-images-box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .product-detail-image {
   border-radius: 15px;
   object-fit: contain;
@@ -909,6 +914,12 @@ span.text-red {
 
 .article-image {
   width: 500px;
-  height: 500px;
+  height: 435px;
   object-fit: contain;
+}
+
+@media screen and (min-width: 967px) {
+  .article-image {
+    height: 500px;
+  }
 }
