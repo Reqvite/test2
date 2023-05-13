@@ -1,4 +1,5 @@
 .search-box {
+  margin: 0 10px;
   position: relative;
   width: 500px;
 }
