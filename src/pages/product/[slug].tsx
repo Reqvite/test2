@@ -30,8 +30,6 @@ const ProductDetails: FC<{
     };
   });
 
-  console.log(cutProducts);
-
   return (
     <div>
       <div className="product-detail-container">
