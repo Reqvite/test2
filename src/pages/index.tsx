@@ -12,7 +12,7 @@ const Home: FC<{ products: any; banners: BannerI[] }> = ({ products }) => {
   const handleFilter = (filterOptions: { product: string; filter: string }) => {
     if (filterOptions.filter) {
       const filteredProducts = products[filterOptions.product]?.filter(
-        ({ filter }: any) => filter.includes(filterOptions.filter)
+        ({ filter }: any) => filter.toLowerCase() === (filterOptions.filter) || filter.includes(filterOptions.filter)
       );
       return filteredProducts;
     } else {
