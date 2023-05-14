@@ -450,8 +450,8 @@ span.text-red {
   object-fit: contain;
   background-color: transparent;
 
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 350px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
@@ -713,7 +713,7 @@ span.text-red {
     flex-wrap: wrap;
   }
   .product-detail-container .product-detail-image {
-    width: 350px;
+    width: 300px;
     height: 350px;
   }
   .cart-heading {
