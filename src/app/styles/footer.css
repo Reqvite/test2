@@ -11,6 +11,8 @@
 }
 
 .footer-links {
+  width: 100%;
+  max-width: 1250px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,12 +46,15 @@
 @media screen and (min-width: 650px) {
   .footer-links__box:not(:first-of-type) {
     margin-left: 50px;
+    margin-top: 0;
   }
 
   .footer-links {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
