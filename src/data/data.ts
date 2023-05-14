@@ -3417,7 +3417,7 @@ export const products = {
       slug: "apple-ipad-pro-12.9-256gb-m2-wi-fi+4g-spacegray",
     },
     {
-      id: "249",
+      id: "249d",
       name: "Apple iPad Pro 12.9 256 GB M2 Wi-Fi+4G Silver",
       price: 999,
       details:
@@ -3774,6 +3774,174 @@ export const products = {
       filter: "laptop",
       slug: "lenovo-legion-5-pro-16ith6h-stingray",
     },
+       {
+      id: "250",
+      name: "Asus ROG Strix G15 G513IM-HN008 Eclipse Gray",
+      price: 999,
+      details:
+        "ROG Strix G15 is a gaming platform for the mainstream user. With a powerful configuration that includes an AMD Ryzen 7 4800H processor and a GeForce RTX 3060 graphics card, this laptop is suitable for a wide range of tasks. The optimized cooling system keeps your device stable under heavy loads, so the ROG Strix G15 will let you show your best in any gaming situation!* Play brighter! Color your life with bright colors! The illumination strip in the new laptop model differs from the previous version in a higher density of LEDs, so the backlight under the case looks more clear. Its visual effects can be synchronized with the lighting of other Aura-compatible devices (Aura Sync technology). For cyberathletes The laptop combines the durability needed for everyday use with a sporty style. The aluminum cover provides excellent shock protection, while also allowing the screen bezel to be further thinned. The plastic case under the wrists stays cooler during marathon gaming runs. A lined-texture inlay along the bottom panel holds the laptop securely in place while you play, and keeps it from slipping out of your fingers when you carry it around. Powerful Configuration The modern configuration makes this laptop a versatile device for gaming, streaming, multitasking and any other application. The NVIDIA GeForce RTX 3060 graphics card is capable of delivering high frame rates in popular games, while the AMD Ryzen 7 4800H processor is ideal for demanding computing. Up to 512 GB NVMe SSD for quick loading of applications. Modern cooling technologies Efficient cooling involves many elements. To quickly remove heat from the processor, an innovative thermal interface is used - liquid metal. The 84-blade Arc Flow fans move more air while creating less turbulence. The airflow passes through up to four heatsinks and is expelled to the outside through optimally positioned vents. All this allows the ROG Boost function to accelerate the graphics card in Turbo mode, and also gives the user the opportunity to further overclock both the GPU and the CPU. Crystal clear sound The laptop's built-in speaker system consists of two smart-amplified speakers** aimed directly at the user. When you plug in your headphones, it will create a fantastic 5.1.2-channel sound experience powered by Dolby Atmos and let you fully immerse yourself in what is happening on the screen. Two-way intelligent noise reduction technology is used to improve the quality of voice communication. Inexhaustible energy The 90 Wh battery is responsible for the long battery life of the laptop. When it runs out, it can be recharged not only from an electrical outlet, but also from compatible power banks via USB-C.* Hit right on target The durable and high-precision keyboard, designed in the style of conventional external models, has an optimized layout and five hot keys for frequently used functions. Key-by-key backlighting lets you highlight important keyboard shortcuts. The resource of key switches is more than 20 million keystrokes.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973992/e67198e4039b4af0a432fa1a2908a563_q7jkop.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973992/e7ddda86acfa640aeff87317a6eb90e9_tfpqpk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973992/31ebd3d615ee283758504405a481f9ce_l4nlcj.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973992/68c3e71d812b017a15d39daa870fd273_lnpnvz.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973992/26ae0ccc3db9280e97760906c2a4292d_ek5ryq.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973992/c329622faa2a6096f69855d5efa88aad_xdurvl.png",
+        ],
+      filter: "laptop",
+      slug: "asus-rog-strix-g15-g513im-hn008-eclipse-gray",
+    },
+    {
+      id: "300",
+      name: "Lenovo Legion 5 Pro 16ITH6H Stingray",
+      price: 999,
+      details:
+        "More play and creativity With the Lenovo Legion 5 Pro 16ITH6H laptop, you can achieve the most important victories. A thin and light device with impressive autonomy and high performance can interact with any multimedia content: from browsing websites and streaming video to creating 3D graphics or playing new games at high settings. The model has a stylish case with a recognizable logo on the lid. Powerful device for your success The Lenovo Legion 5 Pro 16ITH6H laptop is equipped with an Intel Core i7-11800H processor with eight cores that can process up to 16 data streams simultaneously. 16 GB DDR4 RAM is responsible for quick system response to commands and requests, and a 512 GB SSD drive is provided for storing games, applications and user files. The NVIDIA GeForce RTX 3060 6 GB graphics card with support for ray tracing technology is responsible for creating realistic graphics in this model. Play and create multimedia content without limits!.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267503-notebook-711811-2_xpbwej.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267502-notebook-711811-1_nadhso.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973805/1666267508-notebook-711811-11_cyomti.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267507-notebook-711811-9_cyumqz.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267505-notebook-711811-5_uophi1.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267507-notebook-711811-8_mrcama.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1683973804/1666267508-notebook-711811-10_ekuwj4.png",
+      ],
+      filter: "laptop",
+      slug: "lenovo-legion-5-pro-16ith6h-stingray",
+    },
+    {
+      id: "301",
+      name: "Acer Nitro 5 AN515-58 Black",
+      price: 999,
+      details:
+        "Acer Nitro 5 Dominate the games with a combination of a powerful 12th-generation Intel Core i7 processor with a new efficient hybrid architecture and NVIDIA GeForce RTX 30 Series GPUs -- everything you need to win Dominate the games with the combination of a powerful 12th-generation Intel Core i7 processor and NVIDIA GeForce RTX 30 Series GPUs. Get maximum speed and more memory with two Gen 4 M.2 PCIe slots and support for up to 16GB of DDR4 3200 RAM. 12th-generation Intel Core processors give you great gaming performance and the flexibility to multitask. The innovative new architecture allows you to match your core to the load, so background tasks won't interrupt your gaming, giving you the freedom to communicate, browse, stream, edit, record and play nonstop.NVIDIA GeForce RTX 30-series graphics card The latest graphics card based on the NVIDIA RTX Ampere 2nd Generation architecture delivers the most realistic ray traced graphics and advanced artificial intelligence features such as NVIDIA DLSS. New Max-Q technologies also leverage artificial intelligence, enabling manufacturers to create thin, high-performance notebooks that are faster and better than ever before.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684057288/c6ea1c37319362caca77e2c36bab6413_ji8b9s.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684057288/fd762acf557fb57f04c5273046a7d36f_qvuvqj.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684057288/0b1d13e06db6c58b4b28d23e22911b5e_hwmvgo.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684057288/6ccf0bcdd085b12ddc94098edaea0076_fsztsz.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684057287/3ac82165a3756850e3bea690e563116b_edqk2e.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684057288/d31bcdaa1acb079f330161707d841ece_smcfyk.png",
+      ],
+      filter: "laptop",
+      slug: "acer-nitro-5-an515-58-black",
+    },
+    {
+      id: "305",
+      name: "Dell Precision 3551 Titanium Gray",
+      price: 999,
+      details:
+        "From CAD design to professional video editing, the Dell Precision 3551 is a powerful workstation that's ideal for everything from CAD design to professional video editing. Equipped with a powerful processor, NVIDIA Quadro® graphics and 16GB of RAM, it can handle even demanding applications without any problems. And the Dell Optimizer for Precision intelligent platform makes using your laptop even easier and more convenient, adjusting the level of performance where it is needed at the moment. Work comfortably and turn your ideas into reality with Dell Precision.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076519/ddcc9f215232b7461057a6a0562a057a_ng1chn.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076519/1bbe766fbb5a1a885d2176e11f681e59_fc44ik.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076519/c9a7cfd4ba950a942729df911b71b8ed_o2pwie.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076519/84484ecfdd943763097563006b2416bd_xnrtqp.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076565/fa436b59fcb3776835e115aef455ac7c_1_ov7lvr.png",
+      ],
+      filter: "laptop",
+      slug: "dell-precision-3551-titanium-gray",
+    },
+    {
+      id: "306",
+      name: "Dell XPS 15 9500 Silver",
+      price: 999,
+      details:
+        "Dell XPS 15 (9500) (X5932S5NDW-75S) Experience the world's smallest 15.6 laptop, the Dell XPS 15 9500. It features a class-leading 4K Ultra HD+ display with 92.9% of the top bezel and incredibly accurate color reproduction. And a powerful filling, including an Intel Core i9 processor, an NVIDIA GeForce GTX 1650 Ti graphics card, 32 gigabytes of RAM and a 2 TB SSD drive. That allows you to easily work in any programs and perform even the most difficult tasks. Designed for performance and portability, this laptop lets you take your ideas to life, anywhere. And premium materials, stylish design and attention to the smallest details only emphasize its high class. Perfect in every aspect One of the highlights of this model is the stunning 4K Ultra HD+ (3840 x 2400 pixels) DisplayHDR™ 400 touchscreen. It displays over 16 million colors with an unprecedented level of depth, while delivering incredible image clarity, allowing you to view every element in a photo or web browser image without magnification. Thanks to him, work in graphic editors and any multimedia entertainment will become much cooler. Colors that bring the picture to life In addition to high definition, the Dell XPS 15 9500 display boasts 100% Adobe RGB and 94% DCI-P3 color gamut coverage for the most natural and saturated colors. Taken with even greater depth by a 1650:1 contrast ratio and Dolby Vision™ technology that can make highlights up to 40 times brighter and low-light areas up to 10 times darker. Therefore, you get a super clear and realistic picture, even in bright light. Laptop with desktop capabilities The Dell XPS 15 9500 delivers the same performance, productivity and creativity you expect from a desktop PC. It features a 10th Gen Intel® Core™ i9-10885H 8-core processor capable of overclocking up to 5.3GHz and processing up to 16 data streams simultaneously. A 2TB SSD will boot and resume your system in seconds, while 32GB DDR4 RAM will power even your most demanding applications at lightning speed. With such power, you will be able to do a lot. More efficiency, less delay Create, edit and share your creations faster than ever before. The Dell XPS 15 delivers game-changing performance with NVIDIA® GeForce GTX 1650 Ti discrete graphics. It speeds up creative applications, rendering graphics and high-definition video, allowing you to focus on your ideas..",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076950/afdde1ef82d09cfd27a3ba7f6db4c87c_uka3fe.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076950/097cd510bb1de8de1e0e100aa1a4be97_qf1nqd.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076950/32895564b362bf9c22c8393257a0b050_x2ufaj.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076950/a05a04905215d461b910a6c4680f0eb9_sqicnb.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076950/bcf42c3fa79acb5f688b4d1e793d7983_vxek9v.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684076950/8337dc1f2788932278672b2fb0c3101d_muzece.png",
+      ],
+      filter: "laptop",
+      slug: "dell-xps-15-9500-silver",
+    },
+    {
+      id: "308",
+      name: "Dell Latitude 7430 2-in-1 Gray",
+      price: 999,
+      details:
+        "Style and functionality The Latitude 7430 2-in-1 from Dell is a powerful, compact and functional laptop designed for business users. It is versatile and easily adapts to different working styles, looks stylish and is equipped with many technological innovations to help make your daily work even more comfortable. The 12th Gen Intel Core i7 processor delivers high performance, immersive multimedia entertainment and fast program loading. A full HD touch screen with stylus makes using tablet mode even easier, while a large SSD, a great battery with ExpressCharge™ support and a wide range of ports help you solve a variety of tasks. In addition, the Latitude 7430 2-in-1 comes with a fingerprint scanner, optional IR face recognition scanner, proximity sensor and privacy shutter on the webcam. This makes the device a reliable companion for people who value security and good data protection. Universal tool for work and creativity This laptop is made in a 2-in-1 form factor and combines the functions of a standard laptop and a tablet, which greatly expands the owner's options. Thanks to the special hinges, its screen can be rotated 360 degrees, opening up a wide range of possibilities for you to use. Type and work on documents in laptop mode, turn your laptop into demo mode to show videos or other content, or turn your Latitude 7430 2-in-1 into a tablet and work with a pen in one swipe. This laptop can do everything. Multitasking without problems The Dell Latitude 7430 is able to keep up the pace of work and allows you to easily cope with any day-to-day tasks that a business person faces. All thanks to a powerful modern 12th generation Intel Core i7 processor with 10 cores and a maximum frequency of 4.8 GHz. Therefore, working with documents and online communication, creating presentations and analyzing large amounts of data, searching for information on the net and much more will not cause you any difficulties. Full HD touchscreen View content, work with documents or relax in comfort. The Dell Latitude 7430 2-in-1 touchpad features a 14-inch FHD resolution, thin bezels, comfortable viewing angles and a very good contrast ratio for crisp images. In addition, the 96% sRGB color gamut coverage gives the laptop screen an enviably high color fidelity. Therefore, the picture quality will always be on top. Fast in everything The combination of a large headroom of 16 GB of DDR4 RAM and a fast SSD makes this laptop not only productive, but also extremely fast and responsive. Thanks to this combination, the user can run many programs without losing productivity, easily switch between tasks and do a lot more. In addition, the SSD installed in this laptop has a capacity of 512 GB, which is enough to store approximately 125,000 music files, 100,000 photos, or a lot of all sorts of content. communication anywhere Take full advantage of a fast and stable wireless connection to easily work or relax in comfort. The Latitude 7430 2-in-1 supports the latest Wi-Fi 6E (AX211) and Bluetooth 5.2 for faster connection speeds and excellent signal retention. And for long-distance communication, you'll need a webcam that supports Windows Hello authentication and a physical privacy shutter, as well as two microphones with intelligent noise cancellation. Backlit keyboard A comfortable backlit keyboard, which is equipped with a laptop, allows you to work even in the dark, without the need to turn on an additional light source. So you can do your business anywhere and anytime. Expanding your options Although the Dell Latitude 7430 2-in-1 is primarily designed for mobile work, it also comes with a wide range of ports that make it easy to connect any accessories or peripherals you need to your laptop. So, for example, a pair of USB Type-C Thunderbolt 4 connectors with Power Delivery and DisplayPort will help you quickly exchange data and charge your device, USB 3.2 Gen 1 Type-A is useful for connecting an external drive or mouse, and HDMI 2.0 for monitors or TVs. Also at your disposal will be a combo audio jack, a microSD card reader, a uSIM slot and a special slot for a Wedge Shaped lock.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077368/1675236858-63cc1ad8195c9-znimok-ekrana-2023-01-21-184621_hwccob.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077368/1675236856-63cc1ad85a8b7-znimok-ekrana-2023-01-21-190206_of3ltf.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077368/1675236854-63cc1ad8b126c-znimok-ekrana-2023-01-21-190112_cdf24j.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077368/1675236857-63cc1ad93cdf0-znimok-ekrana-2023-01-21-184721_xdfur3.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077368/1675236860-63cc1ad883028-znimok-ekrana-2023-01-21-190136_ytdghk.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077368/1675236855-63cc1ad8d7695-znimok-ekrana-2023-01-21-184820_yeklsm.png",
+      ],
+      filter: "laptop",
+      slug: "dell-latitude-7430-2-in-1-gray",
+    },
+    {
+      id: "309a",
+      name: "Microsoft Surface Laptop 5 Black (RL1-00001)",
+      price: 999,
+      details:
+        "Microsoft Surface Laptop 5 Fast multitasking with 12th Gen Intel Core i5/i7 processors based on the Intel Evo platform, Windows 11 and a vibrant touch screen. Graceful and beautiful, in any size of your choice. Real life battery life to go about your business all day long. The Surface Laptop 5 is the perfect balance for all of these.* Brilliant and customized Stay productive with this sleek and ultra-light laptop with a stunning keyboard that delivers exceptional typing comfort. Touchscreen Choose the 13.5' PixelSense touchscreen for ultra-portable work, or the larger 15' PixelSense touchscreen, which is best for split-screen multitasking. * More energy Instantly multitask with multiple tabs and apps with powerful 12th Gen Intel Core i5/i7 processors powered by the Intel Evo platform.* lightning speed Lightning Thunderbolt 4 port connects a 4K monitor, charges your laptop and provides faster data transfer for large video files. Be the center of attention Enjoy immersive cinematic sound through Omnisononic speakers. Windows 11 brings enhanced camera capabilities and two long-range studio microphones.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077990/ewrty_q3cocu.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077991/80295cd56efe9112c94a96f0996b4cb9_z55ieh.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077990/1bb0eb1843f46b90be80acd1c9b94477_bmliim.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077990/6e5f4d3c14b09d1ddef750d459610f25_zn69qd.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077990/0e2dccad849dd95493113c8de3157354_hwubzp.png",
+      ],
+      filter: "laptop",
+      slug: "microsoft-surface-laptop-5-black-rl1-00001",
+    },
+    {
+      id: "309b",
+      name: "Microsoft Surface Laptop 5 Black (R8P-00024)",
+      price: 999,
+      details:
+        "Microsoft Surface Laptop 5 Fast multitasking with 12th Gen Intel Core i5/i7 processors based on the Intel Evo platform, Windows 11 and a vibrant touch screen. Graceful and beautiful, in any size of your choice. Real life battery life to go about your business all day long. The Surface Laptop 5 is the perfect balance for all of these.* Brilliant and customized Stay productive with this sleek and ultra-light laptop with a stunning keyboard that delivers exceptional typing comfort. Touchscreen Choose the 13.5' PixelSense touchscreen for ultra-portable work, or the larger 15' PixelSense touchscreen, which is best for split-screen multitasking. * More energy Instantly multitask with multiple tabs and apps with powerful 12th Gen Intel Core i5/i7 processors powered by the Intel Evo platform.* lightning speed Lightning Thunderbolt 4 port connects a 4K monitor, charges your laptop and provides faster data transfer for large video files. Be the center of attention Enjoy immersive cinematic sound through Omnisononic speakers. Windows 11 brings enhanced camera capabilities and two long-range studio microphones.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077990/ewrty_q3cocu.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077991/80295cd56efe9112c94a96f0996b4cb9_z55ieh.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077990/1bb0eb1843f46b90be80acd1c9b94477_bmliim.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077990/6e5f4d3c14b09d1ddef750d459610f25_zn69qd.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684077990/0e2dccad849dd95493113c8de3157354_hwubzp.png",
+      ],
+      filter: "laptop",
+      slug: "microsoft-surface-laptop-5-black-r8p-00024",
+    },
+    {
+      id: "309c",
+      name: "Microsoft Surface Book 3 Silver (v6f-00009)",
+      price: 999,
+      details:
+        "Designed for work and creativity Surface Book 3 is the epitome of unparalleled performance and versatility. The most powerful Surface laptop ever, combines speed, graphics, and immersive gaming with the versatility of a laptop, tablet, and portable studio. Implementation of your ideas Surface Book 3 is 50% faster than Surface Book 2 with a 10th Gen Intel Core i5 quad-core processor. The best graphics for work and play Surface Book 3 features Intel Iris Plus Graphics, up to 256GB of SSD storage and up to 8GB of RAM. Exciting games on Surface Connect your Xbox Wireless Controller to enjoy the latest games like Microsoft Flight Simulator on Xbox Game Pass for PC. Opportunities for creativity Find inspiration anywhere as you capture and edit content. Then continue working on the Surface Book 3 digital canvas by creating apps like Adobe Creative Cloud. Get creative with your graphics and see your projects come to life on two 4K monitors when connected to the Surface Dock. The power of your code Free up your desktop and cycle through compile, run, and debug anywhere in software like Microsoft Visual Studio. Performance is up to you with your choice of graphics and the latest processors. Surface for gaming Show your worth by enjoying exciting games with your favorite Xbox Game Pass for PC. Connect your Xbox Wireless Controller to the built-in radio and enjoy great game graphics. Adapts to you When inspiration strikes, Surface Book 3 is ready to jump right into new ideas - complete with a detachable touch screen that converts into a tablet. Get creative with Microsoft 365 Write like a pro with editing and sentence writing in Word. Become a data analyst with data insights in Excel. And unleash your inner designer with PowerPoint layout and color options. Reliable laptop Work with a full-featured keyboard, large responsive trackpad, and all the connections you need, including USB-A and USB-C, plus a full-size SD card slot. Powerful tablet View photos and surf the web with a powerful 13.5' or 15' tablet.* Portable studio Draw, write and sketch with precision using the Surface Pen or Surface Dial and high-quality graphics.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684078621/80f9168dbcd45db438b786bcec5830bd_ltndr4.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684078621/f98f8ab92c838308ac5588757def592b_pxoijd.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684078621/aa3e1fa280c127081dda44aaf77904ed_xcry2p.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684078621/c168b66c0dca9773bf0ae2d3597abfad_kzhdl0.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684078621/dc90f3fa303055337034f7cf68f44478_ytowov.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684078621/86155607cab835062982ca75871faaab_udnh1s.png",
+      ],
+      filter: "laptop",
+      slug: "microsoft-surface-book-3-silver-(v6f-00009)",
+    },
+    {
+      id: "310",
+      name: "Microsoft Surface Laptop GO Silver (21O-00009)",
+      price: 999,
+      details:
+        "Lightest Surface Laptop Get the most out of your laptop every day with sleek style, powerful performance and all-day battery life in the lightest Surface laptop ever. Surface Laptop Go turns any place into your desktop It works with you all day (up to 13 hours of battery life). Ultra-light and portable, the laptop weighs only 1.11 kg and is 15.69 mm thin, so you can take it with you wherever you go, creating an efficient workspace. With a 10th Gen Intel Core i5 processor, your favorite apps will launch almost instantly. You look stunning in any light during video calls with the built-in HD camera. Elegant design and excellent quality 12.4' PixelSense touch screen with 1536x1024 resolution and 3:2 aspect ratio helps you see and do more. Reliable protection Sign in with one touch using Windows Hello and a fingerprint scanner located on the power button. More power at your fingertips With 16 GB of RAM and 256 GB of storage, you get an extra performance boost for multitasking daily, more storage for music and video, making you more productive and comfortable. Work, shop, and stream all day long with a 10th Gen Intel Core i5 processor, the ultimate comfortable typing experience, and long battery life with fast charging. All-Day Charge + Fast Charge The Surface Laptop Go offers up to 13 hours of battery life. And if that's not enough, the fast charge function will replenish the battery up to 80% in just 1 hour. Connect with the most important people Collaborate on projects with colleagues. Surface Laptop Go is ideal for video and conferencing applications such as Skype and Team. Everyone will find their Choose from modern laptop colors with an ultra-slim profile and stunning metallic keyboard to perfectly complement your personal style: sophisticated sandstone, elegant ice blue or rich platinum. USB-C and USB-A ports The laptop is equipped with USB-C and USB-A ports for connecting to displays, docking stations and other peripherals, as well as charging accessories. Studio microphones and Dolby Audio Hear loud and clear with new and improved dual studio microphones, whether you're on a conference call or voice dictation in Office apps. Learn, develop, work and relax Play, code, create crisp, high-quality presentations, enjoy watching movies, or turn ideas into stunning visual stories on Surface Laptop Go. This laptop will help you solve your tasks.",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079157/680bf91677324ad94d885f9907a3fad4_xxytuo.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079157/18ef5af1a0d2908b0ac664d062c17237_sfcltj.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079157/8aa45c72e3e90e961cee703a722dcf5e_b9juvi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079157/ddec806a13058a05c2cbead8bdb1009f_nkpggy.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079157/8e10bdd53fd5b3cfe20702e17d426177_lnr3mi.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079157/9afd5d6ae5ed5d13db608f77a281d3ac_fijlr7.png",
+      ],
+      filter: "laptop",
+      slug: "microsoft-surface-laptop-go-silver-(21O-00009)",
+    },
     {
       id: "263",
       name: "Meta Quest Pro 256GB VR headset",
@@ -3896,6 +4064,28 @@ export const products = {
       slug: "dyson-air-purifier-hot+cool-formaldehyde",
     },
   ],
+  drones: [
+    {
+      id: "311",
+      name: "DJI Mavic 3 Fly More Combo DJCP.MA.00000452.02",
+      price: 999,
+      details:
+        "Omnidirectional Obstacle Detection Capture amazing shots with the iconic Hasselblad camera and enjoy smooth flight with obstacle detection in all directions. Each Mavic 3 update sets the standard for aerial photography. Fly with the Mavic 3 to discover sky-high quality. Hasselblad 4/3 CMOS sensor camera New chapter of the legend Legendary Swedish brand Hasselblad created the L2D-20c custom camera for the DJI Mavic 3 with a professional 4/3 sensor in an incredibly compact body. Hasselblad's high standards have been applied to both the hardware and software algorithms to take image quality to a whole new level. Photo 20 MP. Equivalent focal length. VDAF autofocus technology using video sensors. 12.8 stops of dynamic range for optimal image quality. The 4/3 CMOS sensor, combined with 12.8 stops of dynamic range, preserves more detail in the highlights and shadows, bringing your work to a professional level. Adjustable aperture for every situation Adjust aperture as needed. In low light conditions, the f/2.8 aperture provides more light. If there is enough light, you can lower your shutter speed to create smooth, natural shots. Wider viewing angle The lens weighs less than 13g and has a focal length equivalent to 24mm. It not only supports autofocus, but also provides an 84° field of view, allowing you to fit more into each frame. Fast focusing with VDAF The Hasselblad camera on the Mavic 3 uses Video Sensor Autofocus (VDAF) technology. Multiple vision sensors receive distance data and optimize focusing speed. Hasselblad Natural Color Solution The Mavic 3 is equipped with Hasselblad Natural Color Solution, the result of decades of photographic work that delivers vibrant, natural colors with a simple press of the shutter button. Results that speak Capture professional images with the Hasselblad L2D-20c. Greater dynamic range provides more natural transitions between light and shadow, while maintaining richness and a sense of depth. The larger sensor produces noise-free images even in low light. Professional Video Features The Mavic 3 delivers professional-level image processing, not only capturing high-resolution aerial footage, but also capturing up to 1 billion shades using a 10-bit D-Log color profile. You'll get natural-looking sky tones while retaining rich detail for more flexibility in post-production. The Mavic 3 Cine supports Apple ProRes 422 HQ [2] with a maximum bit rate of 3772 Mbps. It also supports a built-in 1TB SSD[3] and a 10Gb/s fast data cable for professional shooting. TV camera. 28x hybrid zoom, 162mm, f/4.4 aperture Intelligence mode Activate Scout Mode to use the Mavic 3's second camera, a unique telephoto lens for better planning. If your subject is too far away, use a telephoto lens to get closer and save time. Flight characteristics Increased security. Omnidirectional obstacle detection. Mavic 3 allows you to fly safely without the risk of collision, allowing you to focus on getting the shots you need. Multiple built-in wide-angle vision sensors with a high-performance processor allow you to accurately detect obstacles in all directions and plan a safe route to avoid collisions. [4] Advanced return home The end will always be happy with an advanced homecoming. The updated Return Home feature allows the Mavic 3 to automatically determine the best route home and complete it quickly. Whether you activated the function yourself or lost the signal, the Mavic 3 will easily return to its home point when there is enough light. Don't just fly, enjoy flying APAS 5.0 Mavic 3 makes flying home even more fun, recording no longer being interrupted by obstacles in your path. In flight, the Mavic 3 recognizes objects in all directions and moves around them smoothly and quickly. Enjoy any flight even in difficult conditions. Create smooth footage even in the presence of obstacles. Powerful updates: Extended flight time - 45 minutes Signal transmission range - 15 km High frame rate FHD live streaming - 1080p/60fps high precision positioning technology",
+      image: [
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079942/dcb0962ca5e0a654c800064f9a02ba72_gc74aq.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079942/f34e44b2addf7e877ae9025b0f563051_fc69ui.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079941/4fc01dd110decf974217b7f04147a745_usecqt.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079941/5a46f414a96bfc753c90a8c631d7c1e1_zn9as5.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079941/31026ca449123409e9e8080d3935e004_v9wg09.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079941/0bf6d1d08a61bf366031e8db50f4f1d1_gjjfpg.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079941/36a2a422bc7619beccb2413277507f5d_haigov.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079941/d552845ca76e82ea9f9e9f54cbdd6cfe_skvv85.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684079941/ab8a97ef3a8f73dd286c497f07f21378_pb1did.png",
+      ],
+      filter: "DJI-Mavic",
+      slug: "dji-mavic-3-fly-more-combo",
+    },
+  ]
 };
 
 // export const addSlug = (products) => {

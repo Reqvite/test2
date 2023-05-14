@@ -11,4 +11,8 @@ export const buttons = [
     title: "Dyson",
     filter: "dyson",
   },
+  {
+    title: "Drones",
+    filter: "drones",
+  },
 ];

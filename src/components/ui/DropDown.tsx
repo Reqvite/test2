@@ -1,5 +1,6 @@
 import { useStateContext } from "@/context/StateContext";
 import { FC } from "react";
+import '../../app/styles/dropDown.css'
 
 const DropDownApple = [
   "iPhone",
@@ -9,11 +10,10 @@ const DropDownApple = [
   "Apple Watch",
   "Airpods",
 ];
-
 const DropDownPlayStation = ["Playstation", "Console", "Laptop", "VR"];
-// ['Playstation 4', 'Playstation 5']
-
 const DropDownDyson = ["Dyson"];
+const Drones = ["DJI-Mavic"];
+
 
 const DropDown: FC<any> = ({ filter, onMouseLeave }) => {
   const { setFilterOptions } = useStateContext();
@@ -27,6 +27,9 @@ const DropDown: FC<any> = ({ filter, onMouseLeave }) => {
     }
     if (filter === "dyson") {
       return DropDownDyson;
+    }
+    if (filter === "drones") {
+      return Drones;
     }
     return [];
   };
