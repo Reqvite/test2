@@ -7,6 +7,7 @@ import { ProductI, ProductWithQuantityI } from "@/types";
 import { GetServerSideProps } from "next";
 import { products } from "@/data/data";
 import Reviews from "@/components/ui/Reviews";
+import Head from "next/head";
 
 const ProductDetails: FC<{
   product: ProductWithQuantityI;
@@ -32,6 +33,15 @@ const ProductDetails: FC<{
 
   return (
     <div>
+      <Head>
+        <title>{name}</title>
+        <meta name={name} content={details} />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="keywords"
+          content="shop, products, buy, online, iphone, apple, gaming, vr, laptop, dyson"
+        />
+      </Head>
       <div className="product-detail-container">
         <div className="product-images-box">
           <div className="image-container">

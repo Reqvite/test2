@@ -5,7 +5,6 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import "../../app/styles/menu.css";
 import { useStateContext } from "@/context/StateContext";
 import Link from "next/link";
-import Search from "./Search";
 import Cart from "../Cart";
 
 const MobileMenu = () => {

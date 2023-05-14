@@ -4,6 +4,7 @@ import { BannerI } from "@/types";
 import { products } from "@/data/data";
 import { useStateContext } from "@/context/StateContext";
 import PaginatedItems from "@/components/ui/Paginator";
+import Head from "next/head";
 
 const Home: FC<{ products: any; banners: BannerI[] }> = ({ products }) => {
   const { filterOptions } = useStateContext();
@@ -21,6 +22,15 @@ const Home: FC<{ products: any; banners: BannerI[] }> = ({ products }) => {
 
   return (
     <>
+      <Head>
+        <title>Shop</title>
+        <meta name="description" content="Buy high-quality products online." />
+        <meta name="robots" content="index, follow" />
+        <meta
+          name="keywords"
+          content="shop, products, buy, online, iphone, apple, gaming, vr, laptop, dyson"
+        />
+      </Head>
       <HeroBanner />
       <Filter />
       <div className="products-heading">
