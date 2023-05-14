@@ -12,14 +12,16 @@
 
 .footer-links {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-}
 
-.footer-links {
-  display: flex;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .footer-links__box {
+  margin-left: auto;
+  margin-right: auto;
   width: 300px;
   text-align: center;
   display: flex;
@@ -36,7 +38,19 @@
 }
 
 .footer-links__box:not(:first-of-type) {
-  margin-left: 50px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 650px) {
+  .footer-links__box:not(:first-of-type) {
+    margin-left: 50px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .footer-links__box h3 {

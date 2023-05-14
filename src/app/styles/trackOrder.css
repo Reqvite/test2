@@ -1,0 +1,89 @@
+.track-order {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.track-order h1,
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.track-order p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+  max-width: 500px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.track-order ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.track-order li {
+  margin: 10px 0;
+}
+
+.track-order strong {
+  font-weight: bold;
+}
+
+.track-order form {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.track-order label {
+  margin-top: 5px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+}
+
+.track-order input {
+  margin-top: 5px;
+  padding: 10px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid #dcdcdc;
+  width: 100%;
+  min-width: 350px;
+  max-width: 650px;
+}
+
+.track-order input::placeholder {
+  font-weight: 500;
+}
+
+.track-order button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 10px 16px;
+  width: 100px;
+  background-color: #f02d34;
+  color: white;
+  border: none;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+  margin-bottom: 80px;
+}

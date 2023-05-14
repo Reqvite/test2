@@ -25,13 +25,6 @@ a {
   padding: 20px;
 }
 
-.navbar-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 6px 18px;
-  position: relative;
-}
 .marquee-text {
   font-size: 29px;
   font-weight: 600;

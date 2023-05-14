@@ -38,8 +38,8 @@ const Footer: FC = () => {
           <Link href="/" className="footer-box__link">
             Home Page
           </Link>
-          <Link href="" className="footer-box__link">
-            All Products
+          <Link href="track-order" className="footer-box__link">
+            Track order
           </Link>
         </div>
       </div>

@@ -1,14 +1,11 @@
-import { FC, useState } from "react";
+import { FC } from "react";
 import { FooterBanner, HeroBanner, Filter } from "../components";
 import { BannerI } from "@/types";
 import { products } from "@/data/data";
 import { useStateContext } from "@/context/StateContext";
 import PaginatedItems from "@/components/ui/Paginator";
 
-const Home: FC<{ products: any; banners: BannerI[] }> = ({
-  products,
-  banners,
-}) => {
+const Home: FC<{ products: any; banners: BannerI[] }> = ({ products }) => {
   const { filterOptions } = useStateContext();
 
   const handleFilter = (filterOptions: { product: string; filter: string }) => {
@@ -27,8 +24,8 @@ const Home: FC<{ products: any; banners: BannerI[] }> = ({
       <HeroBanner />
       <Filter />
       <div className="products-heading">
-        <h2>Best Selling Products</h2>
-        <p>Speakers of many variations</p>
+        {/* <h2>Best Selling Products</h2>
+        <p>Speakers of many variations</p> */}
       </div>
       <PaginatedItems items={handleFilter(filterOptions)} itemsPerPage={18} />
       {/* <FooterBanner footerBanner={banners && banners[0]} /> */}
