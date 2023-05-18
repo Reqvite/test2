@@ -13,6 +13,7 @@ const DropDownApple = [
 const DropDownPlayStation = ["Playstation", "Console", "Laptop", "VR"];
 const DropDownDyson = ["Dyson"];
 const Drones = ["DJI-Mavic"];
+const Gopro = ["GoPro"];
 
 
 const DropDown: FC<any> = ({ filter, onMouseLeave }) => {
@@ -26,10 +27,13 @@ const DropDown: FC<any> = ({ filter, onMouseLeave }) => {
       return DropDownPlayStation;
     }
     if (filter === "dyson") {
-      return DropDownDyson;
+      return [];
     }
     if (filter === "drones") {
-      return Drones;
+      return [];
+    }
+    if (filter === "gopro") {
+      return [];
     }
     return [];
   };

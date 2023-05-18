@@ -15,4 +15,8 @@ export const buttons = [
     title: "Drones",
     filter: "drones",
   },
+  {
+    title: "GoPro",
+    filter: "gopro",
+  },
 ];
