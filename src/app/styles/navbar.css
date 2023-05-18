@@ -1,5 +1,9 @@
 .navbar-container {
   display: flex;
+  align-self: center;
+  padding-right: 25px;
+  width: 100%;
+  max-width: 1250px;
   align-items: center;
   justify-content: space-between;
   margin: 6px 18px;

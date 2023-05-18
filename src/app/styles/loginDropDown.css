@@ -1,13 +1,20 @@
-.track-order {
-  max-width: 800px;
+.login-modal {
+  position: absolute;
+  top: 40px;
+  left: -300px;
+  z-index: 10000;
+  max-width: 600px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 25px;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #ffffff;
+  border-radius: 10px;
   color: #333;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.track-order h1,
+.login-modal h1,
 h2 {
   margin-top: 20px;
   text-align: center;
@@ -16,7 +23,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-.track-order p {
+.login-modal p {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -27,35 +34,25 @@ h2 {
   margin-top: 25px;
 }
 
-.track-order ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.track-order li {
-  margin: 10px 0;
-}
-
-.track-order strong {
+.login-modal strong {
   font-weight: bold;
 }
 
-.track-order form {
+.login-modal form {
   margin-top: 30px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.track-order label {
+.login-modal label {
   margin-top: 5px;
   font-weight: 500;
   display: flex;
   flex-direction: column;
 }
 
-.track-order input {
+.login-modal input {
   margin-top: 5px;
   padding: 10px;
   height: 40px;
@@ -66,18 +63,13 @@ h2 {
   max-width: 650px;
 }
 
-.track-order input::placeholder {
-  font-weight: 500;
-}
-
-.track-order button {
+.login-modal button {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 15px;
   padding: 10px 16px;
   width: 100px;
-  height: 50px;
   background-color: #f02d34;
   color: white;
   border: none;
@@ -86,11 +78,10 @@ h2 {
   font-weight: 500;
   cursor: pointer;
   transition: all 250ms ease-in-out;
-  margin-bottom: 80px;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
 
-.track-order button:hover {
+.login-modal button:hover {
   transform: scale(1.1, 1.1);
 }

@@ -6,6 +6,7 @@ import "../../app/styles/menu.css";
 import { useStateContext } from "@/context/StateContext";
 import Link from "next/link";
 import Cart from "../Cart";
+import { VscAccount } from "react-icons/vsc";
 
 const MobileMenu = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
@@ -15,6 +16,16 @@ const MobileMenu = () => {
   };
   return (
     <Menu right onStateChange={isMenuOpen} isOpen={isOpen}>
+                  <div className="login-box">
+              <button
+                type="button"
+                className="cart-icon"
+        >
+                <Link href="login">
+            <VscAccount />
+                  </Link>
+              </button>
+            </div>
       <div className="cart-menu">
         <button
           type="button"

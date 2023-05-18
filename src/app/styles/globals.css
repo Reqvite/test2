@@ -16,13 +16,21 @@ a {
   text-decoration: none;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 .main-container {
   max-width: 1400px;
   margin: auto;
   width: 100%;
 }
+
 .layout {
   padding: 20px;
+  padding-top: 0;
 }
 
 .marquee-text {
@@ -70,6 +78,16 @@ span.text-red {
   color: gray;
   font-size: 18px;
 }
+.icons-container {
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.login-box {
+  position: relative;
+}
+
 .cart-icon {
   font-size: 25px;
   color: gray;
