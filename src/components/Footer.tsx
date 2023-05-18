@@ -14,8 +14,8 @@ const Footer: FC = () => {
             <strong>Address</strong> : 79 Florida St, Dorchester Center, MA
             02124, United States
           </a>
-          <a className="footer-box__link" href="mailto:support@32.com">
-            <strong>Email </strong>: support@32.com
+          <a className="footer-box__link" href="mailto:wizardsbyte-support@gmail.com">
+            <strong>Email </strong>: wizardsbyte-support@gmail.com
           </a>
         </div>
         <div className="footer-links__box">

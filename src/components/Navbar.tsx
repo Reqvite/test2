@@ -7,6 +7,8 @@ import Search from "./ui/Search";
 import "../app/styles/navbar.css";
 import MobileMenu from "./ui/MobileMenu";
 import useMediaQuery from "@/hooks/useMedia";
+import Image from "next/image";
+import logo from '../../public/assets/wizardsbyte-logo.png'
 
 const Navbar: FC = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
@@ -14,7 +16,7 @@ const Navbar: FC = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/">Store</Link>
+        <Link href="/"><Image src={logo} alt="wizardsbyte logo" width={200} height={140} quality={100} /></Link>
       </p>
       {!matches ? (
         <>

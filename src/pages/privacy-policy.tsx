@@ -6,7 +6,7 @@ const Privacy = () => {
       <article>
         <h1>Privacy Policy</h1>
         <p>
-          This Privacy Policy describes how Zodiacleaner (the &quot;Site&quot;
+          This Privacy Policy describes how Wizardsbyte (the &quot;Site&quot;
           or &quot;we&quot;) collects, uses, and discloses your Personal
           Information when you visit or make a purchase from the Site.
         </p>

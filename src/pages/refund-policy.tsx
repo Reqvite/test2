@@ -6,7 +6,7 @@ const RefundPolicy = () => {
       <article>
         <h1>Refund policy</h1>
         <p>
-          By placing an order through Zodiacleaner, you agree to the terms
+          By placing an order through Wizardsbyte, you agree to the terms
           stated below. These policies have been established to ensure that you
           are fully informed about our refund and return procedures. Please note
           that these policies are only applicable to domestic orders (United
@@ -26,8 +26,7 @@ const RefundPolicy = () => {
           <strong>B. RETURN PROCESS</strong>
         </p>
         <p>
-          To initiate a return, you can contact us at contact@monoshopy.com or
-          call us at +1 940 526 3328. If your return is accepted, we will send
+          To initiate a return, you can contact us at wizardsbyte-support@gmail.com If your return is accepted, we will send
           you a return shipping label, along with instructions on how and where
           to send your package. Items returned to us without prior authorization
           will not be accepted.
@@ -51,7 +50,7 @@ const RefundPolicy = () => {
         <p>
           We only exchange products that are damaged, incorrect, or faulty. If
           you need to exchange an item, please contact us at
-          contact@monoshopy.com or call us at +1 940 526 3328.
+          wizardsbyte-support@gmail.com.
         </p>
         <p>
           <strong>E. RESTOCKING FEE</strong>

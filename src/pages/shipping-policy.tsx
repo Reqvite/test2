@@ -5,7 +5,7 @@ const ShippingPolicy = () => {
       <article>
         <h1>Shipping Policy</h1>
         <p>
-          By placing an order through <strong>Zodiacleaner</strong>, you are
+          By placing an order through <strong>Wizardsbyte</strong>, you are
           agreeing to the terms below. We set these policies to ensure that you
           are fully aware of our refund and return methods and procedures. These
           policies are applicable to domestic (United States) country.
@@ -40,7 +40,7 @@ const ShippingPolicy = () => {
           We cannot change the delivery address once it is in transit. If you
           need to change the place to deliver your order, please contact us
           within 24 hours of placing your order at{" "}
-          <strong>contact@monoshopy.com</strong> or Call Us at +1 940 526 3328
+          <strong>wizardsbyte-support@gmail.com</strong>
         </p>
         <h3>E. CANCELLATIONS</h3>
         <p>
@@ -59,8 +59,8 @@ const ShippingPolicy = () => {
         <h3>G. Parcels Lost in Transit</h3>
         <p>
           In relation to missing packages, if your item has not arrived within
-          30 calendar days, please contact us at{" "}
-          <strong>contact@monoshopy.com</strong> and we will investigate within
+          30 calendar days, please contact us at
+          <strong>wizardsbyte-support@gmail.com</strong> and we will investigate within
           24-36 hours.
         </p>
       </article>

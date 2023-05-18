@@ -4213,23 +4213,3 @@ export const products = {
   ]
 };
 
-// export const addSlug = (products) => {
-//   const data = products.apple.map((product) => {
-//     const updatedProduct = {
-//       ...product,
-//       slug: product.name.split(" ").join("-").toLowerCase(),
-//     };
-//     return updatedProduct;
-//   });
-
-//   console.log(data);
-//   return data;
-// };
-
-// export const bla = (products) => {
-//   const paths = Object.values(products).flatMap((products) => {
-//     return products.map((product) => ({ params: { slug: product.slug } }));
-//   });
-
-//   return paths;
-// };
