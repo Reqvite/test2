@@ -35,6 +35,12 @@ const DropDown: FC<any> = ({ filter, onMouseLeave }) => {
     if (filter === "gopro") {
       return [];
     }
+    if (filter === "samsung") {
+      return [];
+    }
+    if (filter === "nikon") {
+      return [];
+    }
     return [];
   };
 

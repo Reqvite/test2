@@ -1,7 +1,7 @@
 import { FC } from "react";
-import { FooterBanner, HeroBanner, Filter } from "../components";
+import {  HeroBanner, Filter } from "../components";
 import { BannerI } from "@/types";
-import { products } from "@/data/data";
+import { modifyProducts, products } from "@/data/data";
 import { useStateContext } from "@/context/StateContext";
 import PaginatedItems from "@/components/ui/Paginator";
 import Head from "next/head";
@@ -19,6 +19,11 @@ const Home: FC<{ products: any; banners: BannerI[] }> = ({ products }) => {
       return products[filterOptions.product] || products.apple;
     }
   };
+
+  // if (products) {
+  //    console.log(modifyProducts(products)) 
+  // }
+ 
 
   return (
     <>

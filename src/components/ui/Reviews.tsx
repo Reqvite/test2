@@ -3,9 +3,9 @@ import { useState } from "react";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import "../../app/styles/reviews.css";
 
-const Reviews = ({ id, reviews }: any) => {
-  const numberOfReviews2 = 20;
-  let number = 4;
+const Reviews = ({ id, reviews, productsReviews, productsStars }: any) => {
+  const [numberOfReviews2, setnumberOfReviews2] = useState(productsReviews);
+  let number = productsStars;
 
   const { setReviews } = useStateContext();
 
@@ -21,7 +21,7 @@ const Reviews = ({ id, reviews }: any) => {
     }
 
     setReviews([...reviews, id]);
-    setNumberOfReviews((prev) => prev + 1);
+    setNumberOfReviews((prev:any) => prev + 1);
   };
 
   const stars = Array.from({ length: 5 }, (_, index) => {

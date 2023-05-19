@@ -75,9 +75,17 @@ span.text-red {
   margin-left: 6px;
 }
 .logo {
-  color: gray;
-  font-size: 18px;
 }
+.logo-img {
+  width: 125px;
+}
+
+@media screen and (min-width: 450px) {
+  .logo-img {
+    width: 200px;
+  }
+}
+
 .icons-container {
   margin-left: 20px;
   display: flex;

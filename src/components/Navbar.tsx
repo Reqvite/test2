@@ -21,7 +21,7 @@ const Navbar: FC = () => {
   return (
     <div className="navbar-container">
       <p className="logo">
-        <Link href="/"><Image src={logo} alt="wizardsbyte logo" width={200} height={140} quality={100} /></Link>
+        <Link href="/"><Image src={logo} alt="wizardsbyte logo" width={150} height={140} quality={100} className="logo-img"/></Link>
       </p>
       {!matches ? (
         <>
@@ -51,9 +51,12 @@ const Navbar: FC = () => {
               {showLogin && <LoginDropDown />}
             </div>
             <button
-              type="button"
-              className="cart-icon"
-              onClick={() => setShowCart(!showCart)}
+                type="button"
+                className="cart-icon"
+                onClick={() => {
+                  setShowLogin(false)
+                  setShowCart(!showCart)
+                }}
             >
               <AiOutlineShoppingCart />
               <span className="cart-item-qty">{totalQuantities}</span>

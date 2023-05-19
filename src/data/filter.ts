@@ -4,6 +4,10 @@ export const buttons = [
     filter: "apple",
   },
   {
+    title: "Samsung",
+    filter: "samsung",
+  },
+  {
     title: "Gaming",
     filter: "gaming",
   },
@@ -18,5 +22,9 @@ export const buttons = [
   {
     title: "GoPro",
     filter: "gopro",
+  },
+  {
+    title: "Nikon",
+    filter: "nikon",
   },
 ];

@@ -74,7 +74,7 @@ const ProductDetails: FC<{
 
         <div className="product-detail-desc">
           <h1>{name}</h1>
-          {reviews && <Reviews id={product.id} reviews={reviews} />}
+          {reviews && <Reviews id={product.id} reviews={reviews} productsReviews={product.reviews} productsStars={product.stars}/>}
           <h4>Details: </h4>
           <p>{details}</p>
           <p className="price">${price}</p>
