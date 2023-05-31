@@ -18,21 +18,11 @@ export default async function handler(
           { shipping_rate: "shr_1NDr0rH4v9FZVFxbqpi0Kfww" },
         ],
         line_items: req.body.map((item: ProductWithQuantityI) => {
-          const img = item.image;
-
-          // const newImage = img
-          //   .replace(
-          //     "image-",
-          //     "https://cdn.sanity.io/images/i6mds6py/production/"
-          //   )
-          //   .replace("-webp", ".webp");
-
           return {
             price_data: {
               currency: "usd",
               product_data: {
                 name: item.name,
-                // images: [img],
               },
               unit_amount: item.price * 100,
             },
