@@ -42,7 +42,7 @@ const HeroBanner: FC = (
       {
       id: 4,
       image:
-        "https://res.cloudinary.com/dxs7prlcr/image/upload/v1683888845/pngaaa.com-3365542_xkx7rj.png",
+        "https://res.cloudinary.com/dlvzscci7/image/upload/v1684610928/26345-700x700_a64csc.png",
       name: "Apple Watch Ultra 49mm Titanium Case with Starlight Alpine Loop Medium",
       link: "apple-watch-ultra-49mm-titanium-case-white-ocean-band",
     },
