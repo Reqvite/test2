@@ -866,9 +866,9 @@ span.text-red {
 }
 
 .article-image {
-  width: 500px;
+  width: 435px;
   height: 435px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media screen and (min-width: 967px) {
