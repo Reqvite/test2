@@ -15,25 +15,14 @@ export default async function handler(
         billing_address_collection: "auto",
         mode: "payment",
         shipping_options: [
-          { shipping_rate: "shr_1MyZwXCPvY6H2O68pVYPwIyx" },
-          { shipping_rate: "shr_1MyZOyCPvY6H2O68LzLnY7cv" },
+          { shipping_rate: "shr_1NDr0rH4v9FZVFxbqpi0Kfww" },
         ],
         line_items: req.body.map((item: ProductWithQuantityI) => {
-          const img = item.image;
-
-          // const newImage = img
-          //   .replace(
-          //     "image-",
-          //     "https://cdn.sanity.io/images/i6mds6py/production/"
-          //   )
-          //   .replace("-webp", ".webp");
-
           return {
             price_data: {
               currency: "usd",
               product_data: {
                 name: item.name,
-                // images: [img],
               },
               unit_amount: item.price * 100,
             },
