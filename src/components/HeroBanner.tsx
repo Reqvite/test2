@@ -4,25 +4,12 @@ import Link from "next/link";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
-const HeroBanner: FC = (
-  {
-    // heroBanner: {
-    //   largeText1,
-    //   smallText,
-    //   desc,
-    //   midText,
-    //   product,
-    //   buttonText,
-    //   image,
-    // },
-  }
-) => {
-  const trendingProducts = [
+ const trendingProducts = [
     {
       id: 1,
       image:
         "https://res.cloudinary.com/dlvzscci7/image/upload/v1684610746/blu1-700x700_iu7i8d.png",
-      name: "Iphone 14-plus-blue-128-gb",
+      name: "Iphone 14 Plus Blue 128GB",
       link: "apple-iphone-14-plus-blue128-gb",
     },
     {
@@ -46,13 +33,31 @@ const HeroBanner: FC = (
       name: "Apple Watch Ultra 49mm Titanium Case with Starlight Alpine Loop Medium",
       link: "apple-watch-ultra-49mm-titanium-case-white-ocean-band",
     },
-  ];
+];
+  
+const HeroBanner: FC = (
+  {
+    // heroBanner: {
+    //   largeText1,
+    //   smallText,
+    //   desc,
+    //   midText,
+    //   product,
+    //   buttonText,
+    //   image,
+    // },
+  }
+) => {
+
   return (
     <div className="hero-banner-container">
       <div>
         {/* <p className="beats-solo">{smallText}</p> */}
         {/* <h3>{midText}</h3> */}
         <h1>Trending products</h1>
+        <div className="title-hero-box">
+        <h2 className="title-hero">Summer Sale</h2>
+          </div>
         {/* <Image
           src=""
           alt="headphones"
@@ -94,6 +99,7 @@ const HeroBanner: FC = (
                 className="article-image"
                 quality={100}
               />
+              <h2 className='product-text'>{name}</h2>
             </article>
           </Link>
         ))}

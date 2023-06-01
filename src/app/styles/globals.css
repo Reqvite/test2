@@ -6,6 +6,7 @@ body,
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   box-sizing: border-box;
+  animation: gradientAnimation 8s ease infinite;
 }
 ::-webkit-scrollbar {
   width: 0px;
@@ -163,13 +164,40 @@ span.text-red {
 .hero-banner-container {
   position: relative;
   padding: 40px 40px;
-  background-color: #dcdcdc;
   border-radius: 15px;
   position: relative;
   height: 600px;
   line-height: 0.9;
   width: 100%;
+
+  /* Animated Gradient Background */
+  background: linear-gradient(45deg, #f1663c, #bde7e7, #f02d34);
+  background-size: 200% 200%;
+  animation: gradientAnimation 8s ease infinite;
 }
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.title-hero-box {
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+
+.title-hero {
+  color: white;
+}
+
 .hero-banner-container .beats-solo {
   font-size: 20px;
 }
@@ -185,6 +213,12 @@ span.text-red {
   cursor: pointer;
   z-index: 10000;
   transition: all 250ms ease-in-out;
+}
+
+.product-text {
+  margin-top: 0;
+  color: #ffffff;
+  padding: 20px;
 }
 
 .hero-banner-container button:hover {
@@ -858,11 +892,23 @@ span.text-red {
 }
 
 .product-article {
+  height: 400px;
   cursor: pointer;
   margin-left: auto;
   margin-right: auto;
-
   background-color: transparent;
+}
+
+@media screen and (min-width: 500px) {
+  .product-article {
+    height: 450px;
+  }
+}
+
+@media screen and (min-width: 970px) {
+  .product-article {
+    height: 520px;
+  }
 }
 
 .article-image {
@@ -875,4 +921,8 @@ span.text-red {
   .article-image {
     height: 435px;
   }
+}
+
+h6 {
+  margin-top: 5px;
 }

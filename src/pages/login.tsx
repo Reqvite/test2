@@ -49,6 +49,7 @@ const Login = () => {
         <button type="submit" className="buy">
           {loading ? <Oval height={25} width={25} color="#ffffff" /> : "Login"}
         </button>
+                <h6 className="login-details-text">You will receive your login details after making a purchase.</h6>
       </form>
     </div>
   )
